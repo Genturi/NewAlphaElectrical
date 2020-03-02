@@ -1,0 +1,67 @@
+(ExpressProject "Stargazers"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Repositories\OrCAD_Library\ORCAD_GENTURI_LIB2.OLB"
+        (Type "Schematic Library"))
+      (File "c:\repositories\orcad_library\orcad_genturi_lib1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\stargazers.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "8")
+    (OTHER_Part_Value "{Value}")
+    (OTHER_Netlist_File "STARGAZERS.asc")
+    (OTHER_Netlist_File2 "STARGAZERS.CMP")
+    (OTHER_View_Output "FALSE")
+    (OTHER_View_Output2 "FALSE")
+    (OTHER_Formatter "orPadspcb64.dll")
+    (OTHER_PCB_Footprint "{PCB Footprint}")
+    (OTHER_Switch0 "FALSE")
+    (OTHER_Switch1 "FALSE")
+    (OTHER_Switch2 "FALSE")
+    (OTHER_Switch3 "FALSE")
+    (OTHER_Switch4 "FALSE")
+    (OTHER_Switch5 "FALSE")
+    (OTHER_Switch6 "FALSE"))
+  (Folder "Outputs"
+    (File ".\stargazers.asc"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "EricSchultz")
+  (PartMRUSelector
+    (GenturiTitleBlock1A
+      (LibraryName "C:\REPOSITORIES\ORCAD_LIBRARY\ORCAD_GENTURI_LIB1.OLB")
+      (DeviceIndex "0"))
+    ("Electrophoresis Electrode 1"
+      (FullPartName "Electrophoresis Electrode 1.Normal")
+      (LibraryName "C:\REPOSITORIES\ORCAD_LIBRARY\ORCAD_GENTURI_LIB2.OLB")
+      (DeviceIndex "0"))
+    (5-1814400-1
+      (FullPartName "5-1814400-1.Normal")
+      (LibraryName "C:\REPOSITORIES\ORCAD_LIBRARY\ORCAD_GENTURI_LIB2.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\stargazers.dsn")
+      (Path "Design Resources" ".\stargazers.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\stargazers.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "C:\Repositories\OrCAD_Library\ORCAD_GENTURI_LIB2.OLB")
+      (Path "Design Resources" "Library"
+         "c:\repositories\orcad_library\orcad_genturi_lib1.olb")
+      (Path "Outputs")
+      (Select "Design Resources" ".\stargazers.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 506"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory "C:\Repositories\OrCAD_Library")
+  (ISPCBBASICLICENSE "false"))

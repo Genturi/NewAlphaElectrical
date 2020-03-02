@@ -1,0 +1,446 @@
+(PCB "33-0009(NIGHTQUEST)R1"
+ (description
+  (timeStamp "2020 01 31 19 26 19")
+  (program "CAPTURE.EXE" (Version "17.2-2016"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Interconnect, Cartridge, Nightquest")
+  (date "Friday, January 31, 2020")
+  (document "33-0009")
+  (revision "1")
+  (organization "Genturi, Inc")
+  (address1 "8 Cabot Rd.")
+  (address2 "Suite 4400")
+  (address3 "Woburn, MA   01801")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component 618009233821
+   (place J2
+    (property 
+     (timestamp 0000008B)
+     ("Source Package" 618009233821)
+     (OriginalSymbolOrigin "(-70000,20000)")
+     (MF "Wurth Electronics")
+     (Package None)
+     (Digi_Key_Part_Number "732-618009233821-ND")
+     (Value 618009233821)
+     (Description "WR-DSUB FEMALE ANGLED PCB CONNEC")
+     ("PCB Footprint" 618009233821)
+     (MP 618009233821)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/w-rth-elektronik/618009233821/732-618009233821-ND/10484675?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component 0526101072
+   (place J1
+    (property 
+     (timestamp 0000004E)
+     ("Source Package" 0526101072)
+     (MF Molex)
+     (Value 0526101072)
+     ("PCB Footprint" Molex_0526100872)
+     (MP 0526101072))))
+  (component "5-103639-9"
+   (place J3
+    (property 
+     (timestamp 0000029F)
+     ("Source Package" "5-103639-9")
+     (MF "TE Connectivity AMP Connectors")
+     (Value "5-103639-9")
+     (Description "Connector Header Through Hole 10 position 0.100\" (2.54mm)")
+     ("PCB Footprint" "TE_Conn_5-103669-7")
+     (MP "5-103639-9")))))
+ (library
+  (image 0526101072
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    ("PCB Footprint" Molex_0526101072)
+    (MP 0526101072)
+    (MF Molex))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V4)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V2)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V1)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V2)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V3)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V4)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 9)
+     ("Is No Connect" False))))
+  (image 618009233821
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "WR-DSUB FEMALE ANGLED PCB CONNEC")
+    (Digi_Key_Part_Number "732-618009233821-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/w-rth-elektronik/618009233821/732-618009233821-ND/10484675?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (MF "Wurth Electronics")
+    (MP 618009233821)
+    (OriginalSymbolOrigin "(-70000,20000)")
+    ("PCB Footprint" 618009233821)
+    (Package None))
+   (pin 999 SHELL1
+    (property 
+     (pinname SHIELD__1)
+     (pintype 4)
+     (Name SHIELD__1)
+     (Number SHELL1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 0)
+     ("Is No Connect" True)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V4)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V3)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V2)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V1)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V2)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V3)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V4)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 SHELL
+    (property 
+     (pinname SHIELD)
+     (pintype 4)
+     (Name SHIELD)
+     (Number SHELL)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 10)
+     ("Is No Connect" True))))
+  (image "5-103639-9"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Connector Header Through Hole 10 position 0.100\" (2.54mm)")
+    (MF "TE Connectivity AMP Connectors")
+    (MP "5-103639-9")
+    ("PCB Footprint" "TE_Conn_5-103639-9"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V4)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V2)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A2V1)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V2)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V3)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" A1V4)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 9)
+     ("Is No Connect" False)))))
+ (network
+  (net A1V1
+   (pins
+     J1-6 J2-6 J3-6))
+  (net A1V2
+   (pins
+     J1-7 J2-7 J3-7))
+  (net A1V3
+   (pins
+     J1-8 J2-8 J3-8))
+  (net A1V4
+   (pins
+     J1-9 J2-9 J3-9))
+  (net A2V1
+   (pins
+     J1-5 J2-5 J3-5))
+  (net A2V2
+   (pins
+     J1-4 J2-4 J3-4))
+  (net A2V3
+   (pins
+     J1-3 J2-3 J3-3))
+  (net A2V4
+   (pins
+     J1-2 J2-2 J3-2))
+  (net GND_SIGNAL
+    (property 
+     (nettype S))
+   (pins
+     J1-1 J1-10 J2-1 J3-1 J3-10)))
+)

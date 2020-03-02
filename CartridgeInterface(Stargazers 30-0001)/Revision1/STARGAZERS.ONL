@@ -1,0 +1,148 @@
+(PCB STARGAZERS
+ (description
+  (timeStamp "2019 10 22 17 02 24")
+  (program "CAPTURE.EXE" (Version "17.2-2016"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Cartridge Interface, Electrical (Moondance)")
+  (date "Tuesday, October 22, 2019")
+  (document "33-0001")
+  (revision "1")
+  (organization "Genturi, Inc")
+  (address1 "8 Cabot Rd.")
+  (address2 "Suite 4400")
+  (address3 "Woburn, MA   01801")
+  (address4 " ")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "5-1814400-1"
+   (place J1
+    (property 
+     (timestamp 00000056)
+     ("Source Package" "5-1814400-1")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (Value "5-1814400-1")
+     ("PCB Footprint" "CONN_5-1814400-1")))
+   (place J2
+    (property 
+     (timestamp 00000074)
+     ("Source Package" "5-1814400-1")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (Value "5-1814400-1")
+     ("PCB Footprint" "CONN_5-1814400-1"))))
+  (component "Electrophoresis Electrode 1"
+   (place P1
+    (property 
+     (timestamp 00000091)
+     ("Source Package" "Electrophoresis Electrode 1")
+     (Value "Electrophoresis Electrode 1")))
+   (place P2
+    (property 
+     (timestamp 0000009F)
+     ("Source Package" "Electrophoresis Electrode 1")
+     (Value "Electrophoresis Electrode 1")))
+   (place P3
+    (property 
+     (timestamp 000000F4)
+     ("Source Package" "Electrophoresis Electrode 1")
+     (Value "Electrophoresis Electrode 1")))
+   (place P4
+    (property 
+     (timestamp 00000102)
+     ("Source Package" "Electrophoresis Electrode 1")
+     (Value "Electrophoresis Electrode 1")))))
+ (library
+  (image "Electrophoresis Electrode 1"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname Electrode)
+     (pintype 4)
+     (Name Electrode)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00280)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image "5-1814400-1"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (OriginalSymbolOrigin "(-20000,20000)")
+    ("PCB Footprint" "CONN_5-1814400-1"))
+   (pin 999 1
+    (property 
+     (pinname GND)
+     (pintype 7)
+     (Name GND)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname GND__1)
+     (pintype 7)
+     (Name GND__1)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00292)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname GND__2)
+     (pintype 7)
+     (Name GND__2)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00292)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname GND__3)
+     (pintype 7)
+     (Name GND__3)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" N00292)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname SIGNAL)
+     (pintype 4)
+     (Name SIGNAL)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00280)
+     (Order 4)
+     ("Is No Connect" False)))))
+ (network
+  (net GND
+    (property 
+     (nettype S))
+   (pins
+     J1-1))
+  (net N00280
+   (pins
+     J1-5 P1-1))
+  (net N00292
+   (pins
+     J1-2 J1-3 J1-4 P2-1))
+  (net N00355
+   (pins
+     J2-5 P3-1))
+  (net N00367
+   (pins
+     J2-1 J2-2 J2-3 J2-4 P4-1)))
+)

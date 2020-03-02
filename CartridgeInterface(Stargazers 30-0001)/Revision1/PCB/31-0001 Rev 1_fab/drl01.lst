@@ -1,0 +1,30 @@
+Drill Listing
+=============
+Drill: .033  Tool: 1  Feed: 197  Speed: 55
+X 02119  Y 04343
+X 02343  Y 04119
+X 02658  Y 04119
+X 02881  Y 04343
+X 02881  Y 04658
+X 02119  Y 04658
+X 02343  Y 04881
+X 02658  Y 04881
+Drill: .059  Tool: 2  Feed: 107  Speed: 55
+X 0216  Y 0584
+X 0284  Y 0584
+Drill: .063  Tool: 3  Feed: 089  Speed: 55
+X 0206  Y 0574
+X 0226  Y 0574
+X 0274  Y 0574
+X 0294  Y 0574
+X 0294  Y 0594
+X 0274  Y 0594
+X 0226  Y 0594
+X 0206  Y 0594
+Drill: .096  Tool: 4  Feed: 066  Speed: 55
+X 02125  Y 04125
+X 02875  Y 04125
+X 02875  Y 05125
+X 02125  Y 05125
+X 025  Y 055
+End of Listing
