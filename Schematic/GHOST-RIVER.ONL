@@ -1,0 +1,1075 @@
+(PCB "GHOST-RIVER"
+ (description
+  (timeStamp "2019 10 25 19 15 03")
+  (program "CAPTURE.EXE" (Version "17.2-2016"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Detector, Start of Scan, (Ghost River)")
+  (date "Friday, October 25, 2019")
+  (document "33-0002")
+  (revision "1")
+  (organization "Genturi, Inc")
+  (address1 "8 Cabot Rd.")
+  (address2 "Suite 4400")
+  (address3 "Woburn, MA   01801")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "10118192-0001LF"
+   (place J1
+    (property 
+     (Availability Unavailable)
+     (Price None)
+     (timestamp 00000052)
+     ("Source Package" "10118192-0001LF")
+     (MF "Amphenol FCI")
+     (OriginalSymbolOrigin "(-20000,40000)")
+     (Package None)
+     (Value "10118192-0001LF")
+     (Description "Single Port 5 Contact Horizontal Right Angle Shielded Micro B USB 2.0 Connector")
+     ("PCB Footprint" "AMPHENOL_10118192-0001LF")
+     (MP "10118192-0001LF"))))
+  (component "ERJ-3EKF1002V"
+   (place R6
+    (property 
+     (timestamp 00000FF6)
+     ("Source Package" "ERJ-3EKF1002V")
+     (Value 10K)))
+   (place R7
+    (property 
+     (timestamp 00001006)
+     ("Source Package" "ERJ-3EKF1002V")
+     (Value 10K))))
+  (component "ERJ-3EKF2613V"
+   (place R8
+    (property 
+     (timestamp 0000101F)
+     ("Source Package" "ERJ-3EKF2613V")
+     (Value 261K))))
+  (component TPSD227K010R0040
+   (place C2
+    (property 
+     (timestamp 00000436)
+     ("Source Package" TPSD227K010R0040)
+     (Value 220uF)))
+   (place C3
+    (property 
+     (timestamp 00000446)
+     ("Source Package" TPSD227K010R0040)
+     (Value 220uF))))
+  (component "ERJ-3EKF1742V"
+   (place R9
+    (property 
+     (timestamp 00001038)
+     ("Source Package" "ERJ-3EKF1742V")
+     (Value 17.4K))))
+  (component "ERJ-2RKF4992X"
+   (place R3
+    (property 
+     (timestamp 000003F9)
+     ("Source Package" "ERJ-2RKF4992X")
+     (Value "49.9K (0402)"))))
+  (component COMP_SHDN
+   (place U2
+    (property 
+     (Availability Unavailable)
+     (Price None)
+     (timestamp 000003BB)
+     ("Source Package" COMP_SHDN)
+     (MF "Texas Instruments")
+     (OriginalSymbolOrigin "(-30000,40000)")
+     (Package "SO-8 Texas Instruments")
+     (Value TLV3501AIDBVR)
+     (Description "The TLV350x family of push-pull output comparators feature a fast 4.5ns propagation delay and operation from +2.7V to...")
+     ("PCB Footprint" "SOT23-6_DBV_R-PDSO-G6")
+     (MP TLV3501))))
+  (component MountingHoleGeneric
+   (place M1
+    (property 
+     (timestamp 0000166D)
+     ("Source Package" MountingHoleGeneric)
+     (Value "Mounting Hole (2.4mm)")))
+   (place M2
+    (property 
+     (timestamp 00001863)
+     ("Source Package" MountingHoleGeneric)
+     (Value "Mounting Hole (2.4mm)")))
+   (place M3
+    (property 
+     (timestamp 0000187F)
+     ("Source Package" MountingHoleGeneric)
+     (Value "Mounting Hole (2.4mm)")))
+   (place M4
+    (property 
+     (timestamp 0000189B)
+     ("Source Package" MountingHoleGeneric)
+     (Value "Mounting Hole (2.4mm)"))))
+  (component T521B335M035ATE150
+   (place C6
+    (property 
+     (timestamp 000007A4)
+     ("Source Package" T521B335M035ATE150)
+     (Value 1uF)))
+   (place C9
+    (property 
+     (timestamp 000008D1)
+     ("Source Package" T521B335M035ATE150)
+     (Value 1uF)))
+   (place C10
+    (property 
+     (timestamp 00000C62)
+     ("Source Package" T521B335M035ATE150)
+     (Value 1uF)))
+   (place C12
+    (property 
+     (timestamp 00001130)
+     ("Source Package" T521B335M035ATE150)
+     (Value 1uF))))
+  (component CBC3225T101MR
+   (place L1
+    (property 
+     (timestamp 00000158)
+     ("Source Package" CBC3225T101MR)
+     (OriginalSymbolOrigin "(-30000,15000)")
+     (MF "Taiyo Yuden")
+     (Digi_Key_Part_Number "587-1628-1-ND")
+     (Package "3225 Taiyo Yuden")
+     (Value 100uH)
+     (Description "Inductor Power Chip Wirewound 100uH 20PCT 100KHz Ferrite 340mA 1.82Ohm DCR 1210 T/R")
+     ("PCB Footprint" INDC3225X270N)
+     (MP CBC3225T101MR)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/taiyo-yuden/CBC3225T101MR/587-1628-1-ND/1008243?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component "S1336-18BK"
+   (place D1
+    (property 
+     (timestamp 0000035B)
+     ("Source Package" "S1336-18BK")
+     (Value "S1336-18BK"))))
+  (component C3216C0G1H104J160AA
+   (place C7
+    (property 
+     (timestamp 000007EF)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" CAPC3216X180N)
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C8
+    (property 
+     (timestamp 00000868)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" CAPC3216X180N)
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C11
+    (property 
+     (timestamp 00000C72)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" CAPC3216X180N)
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C13
+    (property 
+     (timestamp 00001140)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" CAPC3216X180N)
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component OPA855IDSGR
+   (place U1
+    (property 
+     (Availability Unavailable)
+     (Price None)
+     (timestamp 0000038C)
+     ("Source Package" OPA855IDSGR)
+     (MF "Texas Instruments")
+     (OriginalSymbolOrigin "(-40000,60000)")
+     (Package None)
+     (Value OPA855IDSGR)
+     (Description "High Speed Operational Amplifiers 8 GHz Gain Bandwidth Product, Decompensated Transimpedance Amplifier with Bipolar Input 8-WSON -40 to 125")
+     ("PCB Footprint" "SON50P200X200X80-9N")
+     (NC 2)
+     (MP OPA855IDSGR))))
+  (component "ERJ-3EKF75R0V"
+   (place R10
+    (property 
+     (timestamp 00001512)
+     ("Source Package" "ERJ-3EKF75R0V")
+     (Value "75 Ohms"))))
+  (component "ERJ-3EKF1653V"
+   (place R4
+    (property 
+     (timestamp 00000631)
+     ("Source Package" "ERJ-3EKF1653V")
+     (Value 165K))))
+  (component "ERJ-3EKF7152V"
+   (place R5
+    (property 
+     (timestamp 00000691)
+     ("Source Package" "ERJ-3EKF7152V")
+     (Value 71.5K))))
+  (component "CAP NP (0402)"
+   (place C5
+    (property 
+     (timestamp 000003E0)
+     ("Source Package" "CAP NP (0402)")
+     (Value "(0402)")
+     ("PCB Footprint" 0402))))
+  (component C1210X224J3GACAUTO
+   (place C1
+    (property 
+     (timestamp 0000013F)
+     ("Source Package" C1210X224J3GACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Package "3326 KEMET")
+     (Digi_Key_Part_Number "399-20368-1-ND")
+     (Value 0.22uF)
+     (Description "CAP CER 0.22UF 25V C0G/NP0 1210")
+     ("PCB Footprint" CAPC3326X230N)
+     (MP C1210X224J3GACAUTO)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/kemet/C1210X224J3GACAUTO/399-20368-1-ND/9925810?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C4
+    (property 
+     (timestamp 00000211)
+     ("Source Package" C1210X224J3GACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Package "3326 KEMET")
+     (Digi_Key_Part_Number "399-20368-1-ND")
+     (Value 0.22uF)
+     (Description "CAP CER 0.22UF 25V C0G/NP0 1210")
+     ("PCB Footprint" CAPC3326X230N)
+     (MP C1210X224J3GACAUTO)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/kemet/C1210X224J3GACAUTO/399-20368-1-ND/9925810?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component CRCW12100000Z0EA
+   (place R1
+    (property 
+     (timestamp 0000007D)
+     ("Source Package" CRCW12100000Z0EA)
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (MF "Vishay Dale")
+     (Package "3225 Vishay")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" RESC3225X60N)
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place R2
+    (property 
+     (timestamp 0000008D)
+     ("Source Package" CRCW12100000Z0EA)
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (MF "Vishay Dale")
+     (Package "3225 Vishay")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" RESC3225X60N)
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))))
+ (library
+  (image OPA855IDSGR
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (OriginalSymbolOrigin "(-40000,60000)")
+    (MP OPA855IDSGR)
+    (Package None)
+    (Description "High Speed Operational Amplifiers 8 GHz Gain Bandwidth Product, Decompensated Transimpedance Amplifier with Bipolar Input 8-WSON -40 to 125")
+    (MF "Texas Instruments")
+    (Price None)
+    (Availability Unavailable)
+    (NC 2)
+    ("PCB Footprint" "SON50P200X200X80-9N"))
+   (pin 999 1
+    (property 
+     (pinname FB)
+     (pintype 0)
+     (Name FB)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N01495)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname IN)
+     (pintype 0)
+     (Name IN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N01512)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname IN+)
+     (pintype 0)
+     (Name IN+)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N01788)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname VS)
+     (pintype 7)
+     (Name VS)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND_SIGNAL)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname OUT)
+     (pintype 2)
+     (Name OUT)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N05343)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname VS+)
+     (pintype 7)
+     (Name VS+)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VCC)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname P\\D\\)
+     (pintype 0)
+     (Name P\\D\\)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" VCC)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname EPAD)
+     (pintype 7)
+     (Name EPAD)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND_SIGNAL)
+     (Order 7)
+     ("Is No Connect" False))))
+  (image COMP_SHDN
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (OriginalSymbolOrigin "(-30000,40000)")
+    (Description "The TLV350x family of push-pull output comparators feature a fast 4.5ns propagation delay and operation from +2.7V to...")
+    (Price None)
+    (MF "Texas Instruments")
+    (Package "SO-8 Texas Instruments")
+    (Availability Unavailable)
+    (MP TLV3501)
+    ("PCB Footprint" "SOT23-6_DBV_R-PDSO-G6"))
+   (pin 999 1
+    (property 
+     (pinname "-IN")
+     (pintype 0)
+     (Name "-IN")
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N04376)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "V-")
+     (pintype 7)
+     (Name "V-")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname +IN)
+     (pintype 0)
+     (Name +IN)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N04282)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname V+)
+     (pintype 7)
+     (Name V+)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Power)
+     ("Net Name" VCC)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname OUT)
+     (pintype 2)
+     (Name OUT)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N04294)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname SHDN)
+     (pintype 0)
+     (Name SHDN)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" GND_SIGNAL)
+     (Order 5)
+     ("Is No Connect" False))))
+  (image CRCW12100000Z0EA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    ("PCB Footprint" RESC3225X60N)
+    (MP CRCW12100000Z0EA)
+    (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+    (Digi_Key_Part_Number "541-0.0VCT-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (Package "3225 Vishay")
+    (MF "Vishay Dale")
+    (OriginalSymbolOrigin "(-20000,20000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-2RKF4992X"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01512)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01495)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1653V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01788)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF7152V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01788)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CBC3225T101MR
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    ("PCB Footprint" INDC3225X270N)
+    (MP CBC3225T101MR)
+    (Description "Inductor Power Chip Wirewound 100uH 20PCT 100KHz Ferrite 340mA 1.82Ohm DCR 1210 T/R")
+    (Package "3225 Taiyo Yuden")
+    (MF "Taiyo Yuden")
+    (Digi_Key_Part_Number "587-1628-1-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/taiyo-yuden/CBC3225T101MR/587-1628-1-ND/1008243?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (OriginalSymbolOrigin "(-30000,15000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00535)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1002V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N05343)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04282)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF2613V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04282)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04294)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1742V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04376)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C1210X224J3GACAUTO
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    ("PCB Footprint" CAPC3326X230N)
+    (MP C1210X224J3GACAUTO)
+    (Description "CAP CER 0.22UF 25V C0G/NP0 1210")
+    (Digi_Key_Part_Number "399-20368-1-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/kemet/C1210X224J3GACAUTO/399-20368-1-ND/9925810?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (Package "3326 KEMET")
+    (MF KEMET)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00535)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image TPSD227K010R0040
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00535)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "CAP NP (0402)"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01512)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01495)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image T521B335M035ATE150
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01788)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C3216C0G1H104J160AA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    ("PCB Footprint" CAPC3216X180N)
+    (MP C3216C0G1H104J160AA)
+    (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+    (Digi_Key_Part_Number "445-7694-1-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (Package "3216 TDK")
+    (MF TDK)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01788)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF75R0V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N05400)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N04294)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image MountingHoleGeneric
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname M1)
+     (pintype 4)
+     (Name M1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 0)
+     ("Is No Connect" False))))
+  (image "10118192-0001LF"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (OriginalSymbolOrigin "(-20000,40000)")
+    (Package None)
+    (Description "Single Port 5 Contact Horizontal Right Angle Shielded Micro B USB 2.0 Connector")
+    (MF "Amphenol FCI")
+    (Price None)
+    (MP "10118192-0001LF")
+    (Availability Unavailable)
+    ("PCB Footprint" "AMPHENOL_10118192-0001LF"))
+   (pin 999 SH1
+    (property 
+     (pinname SHIELD)
+     (pintype 4)
+     (Name SHIELD)
+     (Number SH1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 SH5
+    (property 
+     (pinname SHIELD__4)
+     (pintype 4)
+     (Name SHIELD__4)
+     (Number SH5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 SH4
+    (property 
+     (pinname SHIELD__3)
+     (pintype 4)
+     (Name SHIELD__3)
+     (Number SH4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 SH3
+    (property 
+     (pinname SHIELD__2)
+     (pintype 4)
+     (Name SHIELD__2)
+     (Number SH3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 SH2
+    (property 
+     (pinname SHIELD__1)
+     (pintype 4)
+     (Name SHIELD__1)
+     (Number SH2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 SH6
+    (property 
+     (pinname SHIELD__5)
+     (pintype 4)
+     (Name SHIELD__5)
+     (Number SH6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00186)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname VUSB)
+     (pintype 4)
+     (Name VUSB)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00535)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "D-")
+     (pintype 4)
+     (Name "D-")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname D+)
+     (pintype 4)
+     (Name D+)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N05400)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname ID)
+     (pintype 4)
+     (Name ID)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 9)
+     ("Is No Connect" True)))
+   (pin 999 5
+    (property 
+     (pinname GND)
+     (pintype 4)
+     (Name GND)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 10)
+     ("Is No Connect" False))))
+  (image "S1336-18BK"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname CATHODE)
+     (pintype 4)
+     (Name CATHODE)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01512)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname ANODE)
+     (pintype 4)
+     (Name ANODE)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net GND_EARTH
+    (property 
+     (nettype S))
+   (pins
+     R1-1 R2-2 M1-1 M2-1 M3-1 M4-1))
+  (net GND_SIGNAL
+    (property 
+     (nettype S))
+   (pins
+     J1-2 J1-5 R2-1 C1-1 C4-1 D1-2 U1-5 U1-9 U2-2
+     U2-6 C2-2 C3-2 R5-2 C6-2 C7-1 C8-1 C9-2 C10-2
+     C11-1 R7-1 C13-1 C12-2))
+  (net N00186
+   (pins
+     J1-SH1 J1-SH5 J1-SH4 J1-SH3 J1-SH2 J1-SH6 R1-2))
+  (net N00535
+   (pins
+     J1-1 C1-2 L1-1 C2-1))
+  (net N01495
+   (pins
+     U1-1 C5-2 R3-2))
+  (net N01512
+   (pins
+     D1-1 U1-3 C5-1 R3-1))
+  (net N01788
+   (pins
+     U1-4 R4-1 R5-1 C6-1 C7-2))
+  (net N04282
+   (pins
+     U2-3 R6-2 R8-1))
+  (net N04294
+   (pins
+     U2-5 R8-2 R10-2))
+  (net N04376
+   (pins
+     U2-1 R7-2 R9-2 C13-2 C12-1))
+  (net N05343
+   (pins
+     U1-6 R6-1))
+  (net N05400
+   (pins
+     J1-3 R10-1))
+  (net VCC
+    (property 
+     (nettype S))
+   (pins
+     L1-2 C4-2 U1-7 U1-8 U2-4 C3-1 R4-2 C8-2 C9-1
+     C10-1 C11-2 R9-1)))
+)

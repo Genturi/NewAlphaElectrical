@@ -1,0 +1,66 @@
+*PADS-PCB*
+*PART*
+C1               1210i-3225m
+C10              1411i-3528m
+C11              1206i-3216m
+C12              1411i-3528m
+C13              1206i-3216m
+C2               2917i-7343m
+C3               2917i-7343m
+C4               1210i-3225m
+C5               0402i-1005m
+C6               1411i-3528m
+C7               1206i-3216m
+C8               1206i-3216m
+C9               1411i-3528m
+D1               TO-18
+J1               USB-2-MICRO-B-RT-SMT
+L1               1210i-3225m
+M1               Mounting Hole (2.4mm)
+M2               Mounting Hole (2.4mm)
+M3               Mounting Hole (2.4mm)
+M4               Mounting Hole (2.4mm)
+R1               1210i-3225m
+R10              0603i-1608m
+R2               1210i-3225m
+R3               0402i-1005m
+R4               0603i-1608m
+R5               0603i-1608m
+R6               0603i-1608m
+R7               0603i-1608m
+R8               0603i-1608m
+R9               0603i-1608m
+U1               WSON-8
+U2               SOT23-6
+
+*NET*
+*SIGNAL* GND_EARTH
+R1.1 R2.2 M1.1 M2.1 M3.1 M4.1
+*SIGNAL* GND_SIGNAL
+J1.2 J1.5 R2.1 C1.1 C4.1 D1.2 U1.5 U1.9
+U2.2 U2.6 C2.2 C3.2 R5.2 C6.2 C7.1 C8.1
+C9.2 C10.2 C11.1 R7.1 C13.1 C12.2
+*SIGNAL* N00186
+J1.SH1 J1.SH5 J1.SH4 J1.SH3 J1.SH2 J1.SH6 R1.2
+*SIGNAL* N00535
+J1.1 C1.2 L1.1 C2.1
+*SIGNAL* N01495
+U1.1 C5.2 R3.2
+*SIGNAL* N01512
+D1.1 U1.3 C5.1 R3.1
+*SIGNAL* N01788
+U1.4 R4.1 R5.1 C6.1 C7.2
+*SIGNAL* N04282
+U2.3 R6.2 R8.1
+*SIGNAL* N04294
+U2.5 R8.2 R10.2
+*SIGNAL* N04376
+U2.1 R7.2 R9.2 C13.2 C12.1
+*SIGNAL* N05343
+U1.6 R6.1
+*SIGNAL* N05400
+J1.3 R10.1
+*SIGNAL* VCC
+L1.2 C4.2 U1.7 U1.8 U2.4 C3.1 R4.2 C8.2
+C9.1 C10.1 C11.2 R9.1
+*END*

@@ -1,0 +1,62 @@
+
+
+Photo-Plotter Apertures Report
+==============================
+Position  Width  Hgt/ID  Shape    Qty
+========  =====  ======  =====    ===
+   12       75       0    SQR       6
+   15       60       0    RND       9
+   25       80       0    RND       4
+   30       40       0    RND      12
+   32       20       0    RND     198
+   52       10       0    LINE
+   53       20       0    LINE
+   54       15       0    LINE
+   55        1       0    LINE
+   58       25       0    LINE
+   63        8       0    LINE
+   64        6       0    LINE
+   74       45      71    RECT     18
+   75       26      24    RECT     12
+   81       71      45    RECT      6
+   97       38      36    RECT     24
+   107       48      74    RECT      6
+   108       29      27    RECT      4
+   114       74      48    RECT      2
+   132       41      39    RECT      8
+   137       16       0    LINE
+   146      135     100    RECT     12
+   147       36      38    RECT     18
+   152       31      12    RECT     24
+   154      138     103    RECT      4
+   155       39      41    RECT      6
+   161       34      15    RECT      8
+   166       14       0    RND     154
+   168       12       0    LINE
+   171      160       0    RND      16
+   172      110      64    RECT     18
+   173       80      90    RECT     18
+   174       90      80    RECT      6
+   175       24      60    RECT     18
+   176       30      60    RECT      3
+   177       53      16    RECT     15
+   178       63      83    RECT      6
+   179       75      71    RECT      6
+   180       64     110    RECT     12
+   181      165       0    RND       8
+   182      113      67    RECT      6
+   183       83      93    RECT      6
+   184       93      83    RECT      2
+   185       27      63    RECT      6
+   186       63       0    RND       4
+   187       33      63    RECT      1
+   188       56      19    RECT      5
+   189       66      86    RECT      2
+   190       78       0    SQR       2
+   191       78      74    RECT      2
+   192       67     113    RECT      4
+
+
+
+
+
