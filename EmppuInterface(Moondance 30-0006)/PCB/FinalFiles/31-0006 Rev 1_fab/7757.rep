@@ -1,0 +1,68 @@
+
+
+Photo-Plotter Apertures Report
+==============================
+Position  Width  Hgt/ID  Shape    Qty
+========  =====  ======  =====    ===
+   11      100       0    RND      48
+   14       65       0    RND     247
+   15       60       0    RND      14
+   18       65       0    SQR      11
+   19       60       0    SQR       3
+   20      150       0    RND       8
+   24      200       0    RND      24
+   25       80       0    RND       3
+   30       40       0    RND      61
+   39      105       0    RND      28
+   41       70       0    RND     146
+   42       70       0    SQR       6
+   43      155       0    RND       4
+   47      205       0    RND      16
+   52       10       0    LINE
+   53       20       0    LINE
+   54       15       0    LINE
+   55        1       0    LINE
+   56       50       0    LINE
+   57      100       0    LINE
+   58       25       0    LINE
+   61       40       0    LINE
+   63        8       0    LINE
+   64        6       0    LINE
+   74       45      71    RECT     12
+   81       71      45    RECT     12
+   92       57      45    RECT     36
+   97       38      36    RECT     42
+   107       48      74    RECT      4
+   114       74      48    RECT      4
+   126       60      48    RECT     12
+   132       41      39    RECT     14
+   138       30       0    RND     206
+   146      135     100    RECT     12
+   147       36      38    RECT     42
+   148       45      57    RECT      6
+   154      138     103    RECT      4
+   155       39      41    RECT     14
+   156       48      60    RECT      2
+   172      110      64    RECT     36
+   180       64     110    RECT     12
+   182      113      67    RECT     12
+   192       67     113    RECT      4
+   193      250       0    RND      15
+   197      100     135    RECT     24
+   199       25      40    RECT     15
+   205      255       0    RND      10
+   206      103     138    RECT      8
+   207       19       0    RND     140
+   208       25      87    RECT     48
+   209       45      16    RECT     18
+   210       80     126    RECT      6
+   211       30      92    RECT     16
+   212       30      45    RECT      5
+   213       48      19    RECT      6
+   214       43       0    RND      32
+   215       85     131    RECT      2
+
+
+
+
+
