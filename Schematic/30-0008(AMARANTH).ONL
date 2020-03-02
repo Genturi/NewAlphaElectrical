@@ -1,0 +1,6140 @@
+(PCB "30-0008(AMARANTH)"
+ (description
+  (timeStamp "2020 02 06 20 11 25")
+  (program "CAPTURE.EXE" (Version "17.2-2016"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "Cartridge Bias Controller, Amaranth")
+  (date "Thursday, February 06, 2020")
+  (document "33-0008")
+  (revision "1")
+  (organization "Genturi, Inc")
+  (address1 "8 Cabot Rd.")
+  (address2 "Suite 4400")
+  (address3 "Woburn, MA   01801")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component C1206C183J2GACAUTO
+   (place C11
+    (property 
+     (timestamp 000007CD)
+     ("Source Package" C1206C183J2GACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 0.018uF/200V)
+     (Description "0.018µF ±5% 200V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C183J2GACAUTO))))
+  (component LT3090EDD
+   (place U3
+    (property 
+     (timestamp 00000910)
+     ("Source Package" LT3090EDD)
+     (MF "Linear Technology")
+     (Value LT3090EDD)
+     (Description "Linear Voltage Regulator IC Negative Adjustable 1 Output  600mA 10-DFN (3x3)")
+     ("PCB Footprint" "DFN-10")
+     (MP LT3090EDD#PBF)))
+   (place U6
+    (property 
+     (timestamp 000038C1)
+     ("Source Package" LT3090EDD)
+     (MF "Linear Technology")
+     (Value LT3090EDD)
+     (Description "Linear Voltage Regulator IC Negative Adjustable 1 Output  600mA 10-DFN (3x3)")
+     ("PCB Footprint" "DFN-10")
+     (MP LT3090EDD#PBF))))
+  (component L77SDC37SOL2
+   (place J4
+    (property 
+     (Availability Unavailable)
+     (Price None)
+     (timestamp 00002FB0)
+     ("Source Package" L77SDC37SOL2)
+     (MF "Amphenol ICC (Commercial Products)")
+     (OriginalSymbolOrigin "(-220000,30000)")
+     (Package None)
+     (Value L77SDC37SOL2)
+     (Description "WR-DSUB FEMALE ANGLED PCB CONNEC")
+     ("PCB Footprint" Amphenol_L77SDC37SOL2)
+     (MP L77SDC37SOL2))))
+  (component "EEH-ZS1H221P"
+   (place C1
+    (property 
+     (timestamp 0000009D)
+     ("Source Package" "EEH-ZS1H221P")
+     (MF "Panasonic Electronic Components")
+     (Value 220uF/50V)
+     (Description "220µF 50V Aluminum Polymer Capacitor Radial, Can - SMD 13mOhm 4000 Hrs @ 125°C")
+     ("PCB Footprint" "Panasonic_EEH-ZS1H221P")
+     (MP "EEH-ZS1H221P")))
+   (place C2
+    (property 
+     (timestamp 000000AD)
+     ("Source Package" "EEH-ZS1H221P")
+     (MF "Panasonic Electronic Components")
+     (Value 220uF/50V)
+     (Description "220µF 50V Aluminum Polymer Capacitor Radial, Can - SMD 13mOhm 4000 Hrs @ 125°C")
+     ("PCB Footprint" "Panasonic_EEH-ZS1H221P")
+     (MP "EEH-ZS1H221P")))
+   (place C3
+    (property 
+     (timestamp 000000BD)
+     ("Source Package" "EEH-ZS1H221P")
+     (MF "Panasonic Electronic Components")
+     (Value 220uF/50V)
+     (Description "220µF 50V Aluminum Polymer Capacitor Radial, Can - SMD 13mOhm 4000 Hrs @ 125°C")
+     ("PCB Footprint" "Panasonic_EEH-ZS1H221P")
+     (MP "EEH-ZS1H221P")))
+   (place C4
+    (property 
+     (timestamp 000000CD)
+     ("Source Package" "EEH-ZS1H221P")
+     (MF "Panasonic Electronic Components")
+     (Value 220uF/50V)
+     (Description "220µF 50V Aluminum Polymer Capacitor Radial, Can - SMD 13mOhm 4000 Hrs @ 125°C")
+     ("PCB Footprint" "Panasonic_EEH-ZS1H221P")
+     (MP "EEH-ZS1H221P"))))
+  (component "ERJ-3EKF5233V"
+   (place R2
+    (property 
+     (timestamp 00000D71)
+     ("Source Package" "ERJ-3EKF5233V")
+     (MF "Panasonic Electronic Components")
+     (Value 523K/1%)
+     (Description "523 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF5233V"))))
+  (component "V7812-500"
+   (place U17
+    (property 
+     (timestamp 00009ED0)
+     ("Source Package" "V7812-500")
+     (MF "CUI Inc.")
+     (Value "V7812-500")
+     (Description "Non-Isolated PoL Module DC DC Converter 1 Output 5V    1A 8V - 36V Input")
+     ("PCB Footprint" "CUI_V7812-500")
+     (MP "V7812-500"))))
+  (component CGA5L2C0G1H683J160AA
+   (place C17
+    (property 
+     (timestamp 0000364B)
+     ("Source Package" CGA5L2C0G1H683J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 0.068uF/50V)
+     (Description "0.068µF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP CGA5L2C0G1H683J160AA))))
+  (component 618009233821
+   (place J5
+    (property 
+     (timestamp 00002379)
+     ("Source Package" 618009233821)
+     (MF "Wurth Electronics")
+     (OriginalSymbolOrigin "(-70000,20000)")
+     (Digi_Key_Part_Number "732-618009233821-ND")
+     (Package None)
+     (Value 618009233821)
+     (Description "WR-DSUB FEMALE ANGLED PCB CONNEC")
+     ("PCB Footprint" Wurth_618009233821)
+     (MP 618009233821)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/w-rth-elektronik/618009233821/732-618009233821-ND/10484675?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component C1206C105K5RACAUTO
+   (place C83
+    (property 
+     (timestamp 0000A2F0)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C84
+    (property 
+     (timestamp 0000A300)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C85
+    (property 
+     (timestamp 0000B68E)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C21
+    (property 
+     (timestamp 0000490A)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C86
+    (property 
+     (timestamp 0000B66E)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C22
+    (property 
+     (timestamp 0000491A)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C6
+    (property 
+     (timestamp 000002C5)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C7
+    (property 
+     (timestamp 0000033E)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C65
+    (property 
+     (timestamp 0000805F)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C66
+    (property 
+     (timestamp 000080E5)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C35
+    (property 
+     (timestamp 0000562A)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C68
+    (property 
+     (timestamp 0000812D)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C36
+    (property 
+     (timestamp 0000569E)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C37
+    (property 
+     (timestamp 000087F3)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C38
+    (property 
+     (timestamp 00008879)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C39
+    (property 
+     (timestamp 00008891)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C70
+    (property 
+     (timestamp 000081E3)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C40
+    (property 
+     (timestamp 00008917)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C73
+    (property 
+     (timestamp 00008E8A)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C74
+    (property 
+     (timestamp 00008F10)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C75
+    (property 
+     (timestamp 00008F28)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C76
+    (property 
+     (timestamp 00008FAE)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C78
+    (property 
+     (timestamp 00009DD1)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO)))
+   (place C79
+    (property 
+     (timestamp 00009DE1)
+     ("Source Package" C1206C105K5RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 1uF/50V)
+     (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C1206C105K5RACAUTO))))
+  (component "ERJ-3EKF1401V"
+   (place R27
+    (property 
+     (timestamp 00005E55)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R62
+    (property 
+     (timestamp 00007695)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R3
+    (property 
+     (timestamp 000026D8)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R34
+    (property 
+     (timestamp 0000631D)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R41
+    (property 
+     (timestamp 00006811)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R14
+    (property 
+     (timestamp 000051B8)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R48
+    (property 
+     (timestamp 00006CDB)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V")))
+   (place R55
+    (property 
+     (timestamp 000071CD)
+     ("Source Package" "ERJ-3EKF1401V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.4K/1%)
+     (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1401V"))))
+  (component "ERJ-3EKF1002V"
+   (place R59
+    (property 
+     (timestamp 00007307)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R31
+    (property 
+     (timestamp 00005F8F)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R66
+    (property 
+     (timestamp 000077CF)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R5
+    (property 
+     (timestamp 00002741)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R38
+    (property 
+     (timestamp 00006457)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R45
+    (property 
+     (timestamp 0000694B)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R18
+    (property 
+     (timestamp 000052F6)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V")))
+   (place R52
+    (property 
+     (timestamp 00006E15)
+     ("Source Package" "ERJ-3EKF1002V")
+     (MF "Panasonic Electronic Components")
+     (Value 10K/1%)
+     (Description "RES SMD 10K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V"))))
+  (component "ERJ-3EKF1001V"
+   (place R58
+    (property 
+     (timestamp 000072A9)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R60
+    (property 
+     (timestamp 0000732B)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R30
+    (property 
+     (timestamp 00005F31)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R32
+    (property 
+     (timestamp 00005FB3)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R65
+    (property 
+     (timestamp 00007771)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R67
+    (property 
+     (timestamp 000077F3)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R6
+    (property 
+     (timestamp 000027D7)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R7
+    (property 
+     (timestamp 000027E7)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R37
+    (property 
+     (timestamp 000063F9)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R39
+    (property 
+     (timestamp 0000647B)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R44
+    (property 
+     (timestamp 000068ED)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R46
+    (property 
+     (timestamp 0000696F)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R17
+    (property 
+     (timestamp 00005288)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R19
+    (property 
+     (timestamp 0000530A)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R51
+    (property 
+     (timestamp 00006DB7)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V")))
+   (place R53
+    (property 
+     (timestamp 00006E39)
+     ("Source Package" "ERJ-3EKF1001V")
+     (MF "Panasonic Electronic Components")
+     (Value 1K/1%)
+     (Description "RES SMD 1K OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1001V"))))
+  (component "ERJ-3EKF1582V"
+   (place R25
+    (property 
+     (timestamp 000088DB)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R26
+    (property 
+     (timestamp 000088EB)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R69
+    (property 
+     (timestamp 000080A9)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R70
+    (property 
+     (timestamp 000080B9)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R71
+    (property 
+     (timestamp 000081A7)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R72
+    (property 
+     (timestamp 000081B7)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R73
+    (property 
+     (timestamp 00008ED4)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R74
+    (property 
+     (timestamp 00008EE4)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R75
+    (property 
+     (timestamp 00008F72)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R76
+    (property 
+     (timestamp 00008F82)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R12
+    (property 
+     (timestamp 000048E1)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R13
+    (property 
+     (timestamp 000048F1)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R21
+    (property 
+     (timestamp 00005662)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R22
+    (property 
+     (timestamp 00005672)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R23
+    (property 
+     (timestamp 0000883D)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V")))
+   (place R24
+    (property 
+     (timestamp 0000884D)
+     ("Source Package" "ERJ-3EKF1582V")
+     (MF "Panasonic Electronic Components")
+     (Value 15.8K/1%)
+     (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1582V"))))
+  (component "TSW-105-14-L-D-LL"
+   (place J8
+    (property 
+     (timestamp 00010EC5)
+     ("Source Package" "TSW-105-14-L-D-LL")
+     (MF "Samtec Inc.")
+     (Value "TSW-105-14-L-D-LL")
+     (Description "Connector Header Through Hole 10 position 0.100\" (2.54mm)")
+     ("PCB Footprint" "Samtec_TSW-105-14-L-D-LL")
+     (MP "TSW-105-14-L-D-LL"))))
+  (component "LT3080EDD-1"
+   (place U2
+    (property 
+     (timestamp 00000493)
+     ("Source Package" "LT3080EDD-1")
+     (MF "Linear Technology")
+     (Value "LT3080-1")
+     (Description "Linear Voltage Regulator IC  1 Output  1.1A 8-DFN (3x3)")
+     ("PCB Footprint" "8-DFN")
+     (MP "LT3080EDD-1#PBF")))
+   (place U5
+    (property 
+     (timestamp 00003358)
+     ("Source Package" "LT3080EDD-1")
+     (MF "Linear Technology")
+     (Value "LT3080-1")
+     (Description "Linear Voltage Regulator IC  1 Output  1.1A 8-DFN (3x3)")
+     ("PCB Footprint" "8-DFN")
+     (MP "LT3080EDD-1#PBF"))))
+  (component TPL7407LADR
+   (place U16
+    (property 
+     (timestamp 00009BDB)
+     ("Source Package" TPL7407LADR)
+     (MF "Texas Instruments")
+     (Value TPL7407LA)
+     (Description "Power Switch/Driver 1:1 N-Channel 500mA 16-SOIC")
+     ("PCB Footprint" "SOIC-16")
+     (MP TPL7407LADR)))
+   (place U22
+    (property 
+     (timestamp 0000BE28)
+     ("Source Package" TPL7407LADR)
+     (MF "Texas Instruments")
+     (Value TPL7407LA)
+     (Description "Power Switch/Driver 1:1 N-Channel 500mA 16-SOIC")
+     ("PCB Footprint" "SOIC-16")
+     (MP TPL7407LADR)))
+   (place U23
+    (property 
+     (timestamp 0000C356)
+     ("Source Package" TPL7407LADR)
+     (MF "Texas Instruments")
+     (Value TPL7407LA)
+     (Description "Power Switch/Driver 1:1 N-Channel 500mA 16-SOIC")
+     ("PCB Footprint" "SOIC-16")
+     (MP TPL7407LADR)))
+   (place U24
+    (property 
+     (timestamp 0000C8A0)
+     ("Source Package" TPL7407LADR)
+     (MF "Texas Instruments")
+     (Value TPL7407LA)
+     (Description "Power Switch/Driver 1:1 N-Channel 500mA 16-SOIC")
+     ("PCB Footprint" "SOIC-16")
+     (MP TPL7407LADR))))
+  (component "ADA4177-4ARZ"
+   (place U15
+    (property 
+     (timestamp 00008197)
+     ("Source Package" "ADA4177-4ARZ")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4177-4")
+     (Description "General Purpose Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4177-4ARZ-R7")))
+   (place U7
+    (property 
+     (timestamp 00004844)
+     ("Source Package" "ADA4177-4ARZ")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4177-4")
+     (Description "General Purpose Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4177-4ARZ-R7"))))
+  (component T520V226M020ATE040
+   (place C80
+    (property 
+     (timestamp 00009DF1)
+     ("Source Package" T520V226M020ATE040)
+     (MF KEMET)
+     (Value 22uF/20V)
+     (Description "22µF Molded Tantalum Polymer Capacitor 20V 2917 (7343 Metric) 40mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP T520V226M020ATE040)))
+   (place C8
+    (property 
+     (timestamp 00000431)
+     ("Source Package" T520V226M020ATE040)
+     (MF KEMET)
+     (Value 22uF/20V)
+     (Description "22µF Molded Tantalum Polymer Capacitor 20V 2917 (7343 Metric) 40mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP T520V226M020ATE040))))
+  (component "5103308-3"
+   (place J2
+    (property 
+     (timestamp 00002B58)
+     ("Source Package" "5103308-3")
+     (MF "TE Connectivity AMP Connectors")
+     (Value "5103308-3")
+     (Description "Connector Header Through Hole 16 position 0.100\" (2.54mm)")
+     ("PCB Footprint" "TE_Conn_5103308-3")
+     (MP "5103308-3")))
+   (place J3
+    (property 
+     (timestamp 00002B8C)
+     ("Source Package" "5103308-3")
+     (MF "TE Connectivity AMP Connectors")
+     (Value "5103308-3")
+     (Description "Connector Header Through Hole 16 position 0.100\" (2.54mm)")
+     ("PCB Footprint" "TE_Conn_5103308-3")
+     (MP "5103308-3"))))
+  (component D25S13A4GL00LF
+   (place J6
+    (property 
+     (timestamp 0000253A)
+     ("Source Package" D25S13A4GL00LF)
+     (MF "Amphenol ICC (FCI)")
+     (Value D25S13A4GL00LF)
+     (Description "25 Position D-Sub Receptacle, Female Sockets Connector")
+     ("PCB Footprint" Amphenol_D25S13A4GL00LF)
+     (MP D25S13A4GL00LF))))
+  (component 618015325223
+   (place J7
+    (property 
+     (Price None)
+     (Availability Unavailable)
+     (timestamp 0000F1E2)
+     ("Source Package" 618015325223)
+     (OriginalSymbolOrigin "(-70000,20000)")
+     (MF "Würth Elektronik")
+     (Package None)
+     (Value 618015325223)
+     (Description "WR-DSUB FEMALE HIGH DENSITY ANGL")
+     ("PCB Footprint" Wurth_618015325223)
+     (MP 618015325223))))
+  (component "ERJ-3EKF4991V"
+   (place R57
+    (property 
+     (timestamp 00007229)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R29
+    (property 
+     (timestamp 00005EB1)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R61
+    (property 
+     (timestamp 00007385)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R64
+    (property 
+     (timestamp 000076F1)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R33
+    (property 
+     (timestamp 0000600D)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R68
+    (property 
+     (timestamp 0000784D)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R36
+    (property 
+     (timestamp 00006379)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R8
+    (property 
+     (timestamp 000028B2)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R9
+    (property 
+     (timestamp 000028C2)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R40
+    (property 
+     (timestamp 000064D5)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R43
+    (property 
+     (timestamp 0000686D)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R47
+    (property 
+     (timestamp 000069C9)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R16
+    (property 
+     (timestamp 00005204)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R50
+    (property 
+     (timestamp 00006D37)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R20
+    (property 
+     (timestamp 00005374)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V")))
+   (place R54
+    (property 
+     (timestamp 00006E93)
+     ("Source Package" "ERJ-3EKF4991V")
+     (MF "Panasonic Electronic Components")
+     (Value 4.99K/1%)
+     (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF4991V"))))
+  (component V23026A1002B201
+   (place K2
+    (property 
+     (timestamp 00009F90)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K3
+    (property 
+     (timestamp 00009FA8)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K4
+    (property 
+     (timestamp 0000B7D3)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K5
+    (property 
+     (timestamp 0000B807)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K6
+    (property 
+     (timestamp 0000B83F)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K7
+    (property 
+     (timestamp 0000BD18)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K8
+    (property 
+     (timestamp 0000BD54)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K9
+    (property 
+     (timestamp 0000BD94)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K10
+    (property 
+     (timestamp 0000BE94)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K11
+    (property 
+     (timestamp 0000BED0)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K12
+    (property 
+     (timestamp 0000BF0C)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K13
+    (property 
+     (timestamp 0000C246)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K14
+    (property 
+     (timestamp 0000C282)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K15
+    (property 
+     (timestamp 0000C2C2)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K16
+    (property 
+     (timestamp 0000C3C2)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K17
+    (property 
+     (timestamp 0000C3FE)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K18
+    (property 
+     (timestamp 0000C43A)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K19
+    (property 
+     (timestamp 0000C790)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K20
+    (property 
+     (timestamp 0000C7CC)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K21
+    (property 
+     (timestamp 0000C80C)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K22
+    (property 
+     (timestamp 0000C90C)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K23
+    (property 
+     (timestamp 0000C948)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K24
+    (property 
+     (timestamp 0000C984)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201)))
+   (place K1
+    (property 
+     (timestamp 00009F78)
+     ("Source Package" V23026A1002B201)
+     (MF "TE Connectivity Potter & Brumfield Relays")
+     (OriginalSymbolOrigin "(-40000,30000)")
+     (Value V23026A1002B201)
+     (Discription "General Purpose Relay SPDT (1 Form C) Through Hole")
+     ("PCB Footprint" TE_Conn_V23026A1002B201)
+     (MP V23026A1002B201))))
+  (component "ERJ-3EKF6653V"
+   (place R11
+    (property 
+     (timestamp 000035F6)
+     ("Source Package" "ERJ-3EKF6653V")
+     (MF "Panasonic Electronic Components")
+     (Value 665K/1%)
+     (Description "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF6653V"))))
+  (component "ERJ-3EKF1333V"
+   (place R10
+    (property 
+     (timestamp 000035DD)
+     ("Source Package" "ERJ-3EKF1333V")
+     (MF "Panasonic Electronic Components")
+     (Value 133K/1%)
+     (Description "133 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1333V"))))
+  (component "P78E05-1000"
+   (place U1
+    (property 
+     (timestamp 0000026B)
+     ("Source Package" "P78E05-1000")
+     (MF "CUI Inc.")
+     (Value "P78E05-1000")
+     (Description "Non-Isolated PoL Module DC DC Converter 1 Output 5V    1A 8V - 36V Input")
+     ("PCB Footprint" "CUI_P78E05-1000")
+     (MP "P78E05-1000"))))
+  (component C3216C0G1H104J160AA
+   (place C50
+    (property 
+     (timestamp 000068B7)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C52
+    (property 
+     (timestamp 00006A11)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C54
+    (property 
+     (timestamp 00006D81)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C23
+    (property 
+     (timestamp 00004B36)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C56
+    (property 
+     (timestamp 00006EDB)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C24
+    (property 
+     (timestamp 00004B46)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C25
+    (property 
+     (timestamp 00004B56)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C58
+    (property 
+     (timestamp 00007273)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C26
+    (property 
+     (timestamp 00004B66)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C60
+    (property 
+     (timestamp 000073CD)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C62
+    (property 
+     (timestamp 0000773B)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C64
+    (property 
+     (timestamp 00007895)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C32
+    (property 
+     (timestamp 00005298)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C34
+    (property 
+     (timestamp 000053BC)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C69
+    (property 
+     (timestamp 0000813D)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C72
+    (property 
+     (timestamp 00008223)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C42
+    (property 
+     (timestamp 00005EFB)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C44
+    (property 
+     (timestamp 00006055)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C46
+    (property 
+     (timestamp 000063C3)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C14
+    (property 
+     (timestamp 00000D58)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C48
+    (property 
+     (timestamp 0000651D)
+     ("Source Package" C3216C0G1H104J160AA)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF TDK)
+     (Package "3216 TDK")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component "5-103669-2"
+   (place J1
+    (property 
+     (timestamp 00000032)
+     ("Source Package" "5-103669-2")
+     (Value "5-103669-2")
+     ("PCB Footprint" "TE-Con_5-103669-2"))))
+  (component "ERJ-3EKF1961V"
+   (place R28
+    (property 
+     (timestamp 00005E65)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R63
+    (property 
+     (timestamp 000076A5)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R4
+    (property 
+     (timestamp 000026F3)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R35
+    (property 
+     (timestamp 0000632D)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R42
+    (property 
+     (timestamp 00006821)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R15
+    (property 
+     (timestamp 000051C8)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R49
+    (property 
+     (timestamp 00006CEB)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V")))
+   (place R56
+    (property 
+     (timestamp 000071DD)
+     ("Source Package" "ERJ-3EKF1961V")
+     (MF "Panasonic Electronic Components")
+     (Value 1.96K/1%)
+     (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1961V"))))
+  (component MC74HC32ADR2G
+   (place U25
+    (property 
+     (timestamp 0000D328)
+     ("Source Package" MC74HC32ADR2G)
+     (MF "ON Semiconductor")
+     (Value MC74HC32)
+     (Description "OR Gate IC 4 Channel  14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP MC74HC32ADR2G)))
+   (place U26
+    (property 
+     (timestamp 0000D62D)
+     ("Source Package" MC74HC32ADR2G)
+     (MF "ON Semiconductor")
+     (Value MC74HC32)
+     (Description "OR Gate IC 4 Channel  14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP MC74HC32ADR2G))))
+  (component C0603X394K4RACAUTO
+   (place C20
+    (property 
+     (timestamp 0000421B)
+     ("Source Package" C0603X394K4RACAUTO)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF KEMET)
+     (Value 0.39uF/16V)
+     (Description "0.39µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
+     ("PCB Footprint" "0603i-1608m")
+     (MP C0603X394K4RACAUTO))))
+  (component MC74HC08ADR2G
+   (place U19
+    (property 
+     (timestamp 0000A097)
+     ("Source Package" MC74HC08ADR2G)
+     (MF "ON Semiconductor")
+     (Value MC74HC08A)
+     (Description "AND Gate IC 4 Channel  14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP MC74HC08ADR2G)))
+   (place U20
+    (property 
+     (timestamp 0000B5E0)
+     ("Source Package" MC74HC08ADR2G)
+     (MF "ON Semiconductor")
+     (Value MC74HC08A)
+     (Description "AND Gate IC 4 Channel  14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP MC74HC08ADR2G))))
+  (component CRCW06032M61FKEA
+   (place R1
+    (property 
+     (timestamp 000007B4)
+     ("Source Package" CRCW06032M61FKEA)
+     (MF "Vishay Dale")
+     (Value 2.61Meg/1%)
+     (Description "2.61 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1002V"))))
+  (component TCQD106M035R0070
+   (place C51
+    (property 
+     (timestamp 00006A01)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C53
+    (property 
+     (timestamp 00006D5B)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C55
+    (property 
+     (timestamp 00006ECB)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C57
+    (property 
+     (timestamp 0000724D)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C59
+    (property 
+     (timestamp 000073BD)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C27
+    (property 
+     (timestamp 00004BA8)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C28
+    (property 
+     (timestamp 00004BB8)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C29
+    (property 
+     (timestamp 00004BC8)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C61
+    (property 
+     (timestamp 00007715)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C30
+    (property 
+     (timestamp 00004BD8)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C63
+    (property 
+     (timestamp 00007885)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C31
+    (property 
+     (timestamp 00005252)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C33
+    (property 
+     (timestamp 000053AC)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C67
+    (property 
+     (timestamp 0000811D)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C71
+    (property 
+     (timestamp 00008213)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C41
+    (property 
+     (timestamp 00005ED5)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C43
+    (property 
+     (timestamp 00006045)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C45
+    (property 
+     (timestamp 0000639D)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C47
+    (property 
+     (timestamp 0000650D)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070)))
+   (place C49
+    (property 
+     (timestamp 00006891)
+     ("Source Package" TCQD106M035R0070)
+     (MF "AVX Corporation")
+     (Value 10uF/35V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP TCQD106M035R0070))))
+  (component 12105C106K4Z2A
+   (place C82
+    (property 
+     (timestamp 0000A201)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C87
+    (property 
+     (timestamp 0000BDE4)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C88
+    (property 
+     (timestamp 0000C312)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C89
+    (property 
+     (timestamp 0000C85C)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C9
+    (property 
+     (timestamp 00000624)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C10
+    (property 
+     (timestamp 00000634)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C12
+    (property 
+     (timestamp 00000A0A)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C13
+    (property 
+     (timestamp 00000B76)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C15
+    (property 
+     (timestamp 0000339C)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C16
+    (property 
+     (timestamp 000033C0)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C18
+    (property 
+     (timestamp 00003897)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A)))
+   (place C19
+    (property 
+     (timestamp 00003905)
+     ("Source Package" 12105C106K4Z2A)
+     (OriginalSymbolOrigin "(0,10000)")
+     (MF "AVX Corporation")
+     (Value 10uF/50V)
+     (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+     ("PCB Footprint" "1210i-3225m")
+     (MP 12105C106K4Z2A))))
+  (component "ADA4522-4"
+   (place U13
+    (property 
+     (timestamp 00007285)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U14
+    (property 
+     (timestamp 0000774D)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U4
+    (property 
+     (timestamp 0000261E)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U8
+    (property 
+     (timestamp 00005264)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U9
+    (property 
+     (timestamp 00005F0D)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U10
+    (property 
+     (timestamp 000063D5)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U11
+    (property 
+     (timestamp 000068C9)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ")))
+   (place U12
+    (property 
+     (timestamp 00006D93)
+     ("Source Package" "ADA4522-4")
+     (MF "Analog Devices Inc.")
+     (Value "ADA4522-4")
+     (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+     ("PCB Footprint" "SOIC-14")
+     (MP "ADA4522-4ARZ"))))
+  (component PA4320.334NLT
+   (place L1
+    (property 
+     (timestamp 000000E6)
+     ("Source Package" PA4320.334NLT)
+     (MF "Pulse Electronics Power")
+     (Value 330uH)
+     (Description "330µH Shielded Wirewound Inductor 1.7A 340mOhm Max Nonstandard")
+     ("PCB Footprint" Pulse_PA4320)
+     (MP PA4320.334NLT)))
+   (place L2
+    (property 
+     (timestamp 000000F6)
+     ("Source Package" PA4320.334NLT)
+     (MF "Pulse Electronics Power")
+     (Value 330uH)
+     (Description "330µH Shielded Wirewound Inductor 1.7A 340mOhm Max Nonstandard")
+     ("PCB Footprint" Pulse_PA4320)
+     (MP PA4320.334NLT))))
+  (component CRCW12100000Z0EA
+   (place R77
+    (property 
+     (timestamp 0000F3E0)
+     ("Source Package" CRCW12100000Z0EA)
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (MF "Vishay Dale")
+     (Package "3225 Vishay")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" "1210i-3225m")
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component T598D106M050ATE090
+   (place C5
+    (property 
+     (timestamp 000002AC)
+     ("Source Package" T598D106M050ATE090)
+     (MF KEMET)
+     (Value 10uF/50V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 50V 2917 (7343 Metric) 90mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP T598D106M050ATE090)))
+   (place C77
+    (property 
+     (timestamp 00009DC1)
+     ("Source Package" T598D106M050ATE090)
+     (MF KEMET)
+     (Value 10uF/50V)
+     (Description "10µF Molded Tantalum Polymer Capacitor 50V 2917 (7343 Metric) 90mOhm @ 100kHz")
+     ("PCB Footprint" "2917i-7343m")
+     (MP T598D106M050ATE090)))))
+ (library
+  (image V23026A1002B201
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (OriginalSymbolOrigin "(-40000,30000)")
+    (MP V23026A1002B201)
+    (MF "TE Connectivity Potter & Brumfield Relays")
+    (Discription "General Purpose Relay SPDT (1 Form C) Through Hole"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DriveSense_A1V3)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N41239)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname NC1)
+     (pintype 4)
+     (Name NC1)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 3)
+     ("Is No Connect" True)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N47304)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A1V3)
+     (Order 5)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1582V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "15.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1582V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N25731)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N34969)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF4991V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "4.99 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF4991V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N29237)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ADA4522-4"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Zero-Drift Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+    ("PCB Footprint" "SOIC-8")
+    (MP "ADA4522-4ARZ")
+    (MF "Analog Devices Inc."))
+   (pin 999 1
+    (property 
+     (pinname "Out A")
+     (pintype 2)
+     (Name "Out A")
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N29197)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "-In A")
+     (pintype 0)
+     (Name "-In A")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N29185)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname "+In A")
+     (pintype 0)
+     (Name "+In A")
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" DAC_Cmd_6)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname "+In B")
+     (pintype 0)
+     (Name "+In B")
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N29197)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname "-In B")
+     (pintype 0)
+     (Name "-In B")
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N29205)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname "Out B")
+     (pintype 2)
+     (Name "Out B")
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N29205)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname "Out C")
+     (pintype 2)
+     (Name "Out C")
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N29499)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname "-In C")
+     (pintype 0)
+     (Name "-In C")
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N29499)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname "+In C")
+     (pintype 0)
+     (Name "+In C")
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" DriveSense_A2V3)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname "+In D")
+     (pintype 0)
+     (Name "+In D")
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N29237)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname "-In D")
+     (pintype 0)
+     (Name "-In D")
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N29515)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname "Out D")
+     (pintype 2)
+     (Name "Out D")
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N29491)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname V+)
+     (pintype 4)
+     (Name V+)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname "V-")
+     (pintype 4)
+     (Name "V-")
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-26p1V")
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1001V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1001V")
+    ("PCB Footprint" "0603i-1608m")
+    (Description "RES SMD 1K OHM 1% 1/10W 0603"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N29205)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N29237)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ADA4177-4ARZ"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "General Purpose Amplifier 4 Circuit Rail-to-Rail 14-SOIC")
+    (MF "Analog Devices Inc.")
+    (MP "ADA4177-4ARZ-R7"))
+   (pin 999 1
+    (property 
+     (pinname "Out A")
+     (pintype 2)
+     (Name "Out A")
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" ElectrodeCurrent_A2V1)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname "-In A")
+     (pintype 0)
+     (Name "-In A")
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" ElectrodeCurrent_A2V1)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname "+In A")
+     (pintype 0)
+     (Name "+In A")
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N32977)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname "+In B")
+     (pintype 0)
+     (Name "+In B")
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N33231)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname "-In B")
+     (pintype 0)
+     (Name "-In B")
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" ElectrodeCurrent_A2V2)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname "Out B")
+     (pintype 2)
+     (Name "Out B")
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" ElectrodeCurrent_A2V2)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname "Out C")
+     (pintype 2)
+     (Name "Out C")
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" ElectrodeCurrent_A2V3)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname "-In C")
+     (pintype 0)
+     (Name "-In C")
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" ElectrodeCurrent_A2V3)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname "+In C")
+     (pintype 0)
+     (Name "+In C")
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N36604)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname "+In D")
+     (pintype 0)
+     (Name "+In D")
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N36762)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname "-In D")
+     (pintype 0)
+     (Name "-In D")
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" ElectrodeCurrent_A2V4)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname "Out D")
+     (pintype 2)
+     (Name "Out D")
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" ElectrodeCurrent_A2V4)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname V+)
+     (pintype 4)
+     (Name V+)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +6p65V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname "V-")
+     (pintype 4)
+     (Name "V-")
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-6p65V")
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1002V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1002V")
+    ("PCB Footprint" "0603i-1608m")
+    (Description "RES SMD 10K OHM 1% 1/10W 0603"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N29197)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DriveSense_A2V3)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1401V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "1.4 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1401V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N24201)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image TPL7407LADR
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MF "Texas Instruments")
+    (MP TPL7407LADR)
+    ("PCB Footprint" "SOIC-16")
+    (Description "Power Switch/Driver 1:1 N-Channel 500mA 16-SOIC"))
+   (pin 999 9
+    (property 
+     (pinname Com)
+     (pintype 4)
+     (Name Com)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname Gnd)
+     (pintype 4)
+     (Name Gnd)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname In1)
+     (pintype 4)
+     (Name In1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N53405)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname In2)
+     (pintype 4)
+     (Name In2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V3_1)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname In3)
+     (pintype 4)
+     (Name In3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N53460)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname In4)
+     (pintype 4)
+     (Name In4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname In5)
+     (pintype 4)
+     (Name In5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N53532)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname In6)
+     (pintype 4)
+     (Name In6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V4_1)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname In7)
+     (pintype 4)
+     (Name In7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N53621)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname Out7)
+     (pintype 2)
+     (Name Out7)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N47379)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname Out6)
+     (pintype 2)
+     (Name Out6)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N47404)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname Out5)
+     (pintype 2)
+     (Name Out5)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N47429)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname Out4)
+     (pintype 2)
+     (Name Out4)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" SpareOut_1)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname Out3)
+     (pintype 2)
+     (Name Out3)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N47354)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname Out2)
+     (pintype 2)
+     (Name Out2)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N47329)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname Out1)
+     (pintype 2)
+     (Name Out1)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N47304)
+     (Order 15)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1961V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "1.96 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1961V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N24201)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N24213)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "V7812-500"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MP "V7812-500")
+    (MF "CUI Inc.")
+    (Description "Non-Isolated PoL Module DC DC Converter 1 Output 5V    1A 8V - 36V Input"))
+   (pin 999 1
+    (property 
+     (pinname Vin)
+     (pintype 4)
+     (Name Vin)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Gnd)
+     (pintype 4)
+     (Name Gnd)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Vout)
+     (pintype 4)
+     (Name Vout)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image MC74HC08ADR2G
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MP MC74HC08ADR2G)
+    (MF "ON Semiconductor")
+    (Description "AND Gate IC 4 Channel  14-SOIC"))
+   (pin 999 1
+    (property 
+     (pinname A1)
+     (pintype 0)
+     (Name A1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V3_0)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname B1)
+     (pintype 0)
+     (Name B1)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V3_1)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Y1)
+     (pintype 2)
+     (Name Y1)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N53405)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname Y2)
+     (pintype 2)
+     (Name Y2)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N53532)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname A2)
+     (pintype 0)
+     (Name A2)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V4_0)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname B2)
+     (pintype 0)
+     (Name B2)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V4_1)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname A3)
+     (pintype 0)
+     (Name A3)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V1_0)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname B3)
+     (pintype 0)
+     (Name B3)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V1_1)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname Y3)
+     (pintype 2)
+     (Name Y3)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N54335)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname Y4)
+     (pintype 2)
+     (Name Y4)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N54308)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname A4)
+     (pintype 0)
+     (Name A4)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V2_0)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname B4)
+     (pintype 0)
+     (Name B4)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V2_1)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname Vcc)
+     (pintype 4)
+     (Name Vcc)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname Gnd)
+     (pintype 4)
+     (Name Gnd)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image T520V226M020ATE040
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "22µF Molded Tantalum Polymer Capacitor 20V 2917 (7343 Metric) 40mOhm @ 100kHz")
+    (MF KEMET)
+    (MP T520V226M020ATE040)
+    ("PCB Footprint" "2917i-7343m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 12105C106K4Z2A
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "10µF ±10% 50V Ceramic Capacitor X7R 1210 (3225 Metric)")
+    (MF "AVX Corporation")
+    (MP 12105C106K4Z2A)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C3216C0G1H104J160AA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+    (Digi_Key_Part_Number "445-7694-1-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (MF TDK)
+    (MP C3216C0G1H104J160AA)
+    (OriginalSymbolOrigin "(0,10000)")
+    ("PCB Footprint" "1206i-3216m")
+    (Package "3216 TDK"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C1206C105K5RACAUTO
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "1µF ±10% 50V Ceramic Capacitor X7R 1206 (3216 Metric)")
+    (MF KEMET)
+    (MP C1206C105K5RACAUTO)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image TCQD106M035R0070
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MF "AVX Corporation")
+    (MP TCQD106M035R0070)
+    ("PCB Footprint" "2917i-7343m")
+    (Description "10µF Molded Tantalum Polymer Capacitor 35V 2917 (7343 Metric) 70mOhm @ 100kHz"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-26p1V")
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C0603X394K4RACAUTO
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "0.39µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)")
+    (MF KEMET)
+    (MP C0603X394K4RACAUTO)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N14613)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "P78E05-1000"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MF "CUI Inc.")
+    (MP "P78E05-1000")
+    (Description "Non-Isolated PoL Module DC DC Converter 1 Output 5V    1A 8V - 36V Input"))
+   (pin 999 1
+    (property 
+     (pinname Vin)
+     (pintype 4)
+     (Name Vin)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Gnd)
+     (pintype 4)
+     (Name Gnd)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Vout)
+     (pintype 4)
+     (Name Vout)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 2)
+     ("Is No Connect" False))))
+  (image "LT3080EDD-1"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Linear Voltage Regulator IC  1 Output  1.1A 8-DFN (3x3)")
+    (MF "Linear Technology")
+    (MP "LT3080EDD-1#PBF"))
+   (pin 999 1
+    (property 
+     (pinname Out1)
+     (pintype 4)
+     (Name Out1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname Out2)
+     (pintype 4)
+     (Name Out2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Out3)
+     (pintype 4)
+     (Name Out3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname Set)
+     (pintype 4)
+     (Name Set)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02031)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname Vctrl)
+     (pintype 4)
+     (Name Vctrl)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00402)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname NC)
+     (pintype 4)
+     (Name NC)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 5)
+     ("Is No Connect" True)))
+   (pin 999 7
+    (property 
+     (pinname In1)
+     (pintype 4)
+     (Name In1)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00402)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname In2)
+     (pintype 4)
+     (Name In2)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00402)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname Out4)
+     (pintype 4)
+     (Name Out4)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 8)
+     ("Is No Connect" False))))
+  (image LT3090EDD
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MF "Linear Technology")
+    (MP LT3090EDD#PBF)
+    (Description "Linear Voltage Regulator IC Negative Adjustable 1 Output  600mA 10-DFN (3x3)"))
+   (pin 999 1
+    (property 
+     (pinname In1)
+     (pintype 4)
+     (Name In1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00395)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname In2)
+     (pintype 4)
+     (Name In2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00395)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname In3)
+     (pintype 4)
+     (Name In3)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00395)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Ilim)
+     (pintype 4)
+     (Name Ilim)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00395)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname ImonP)
+     (pintype 4)
+     (Name ImonP)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00395)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname ImonN)
+     (pintype 4)
+     (Name ImonN)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname S\\h\\d\\n\\)
+     (pintype 4)
+     (Name S\\h\\d\\n\\)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00395)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname Set)
+     (pintype 4)
+     (Name Set)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N03542)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname Gnd)
+     (pintype 4)
+     (Name Gnd)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname Out1)
+     (pintype 4)
+     (Name Out1)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-26p1V")
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname Out2)
+     (pintype 4)
+     (Name Out2)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-26p1V")
+     (Order 10)
+     ("Is No Connect" False))))
+  (image CRCW06032M61FKEA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "2.61 MOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Vishay Dale")
+    (MP "ERJ-3EKF1002V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02031)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF5233V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "523 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF5233V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N03542)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image PA4320.334NLT
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "330µH Shielded Wirewound Inductor 1.7A 340mOhm Max Nonstandard")
+    (MF "Pulse Electronics Power")
+    (MP PA4320.334NLT))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N00402)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image MC74HC32ADR2G
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MP MC74HC32ADR2G)
+    (MF "ON Semiconductor")
+    (Description "OR Gate IC 4 Channel  14-SOIC"))
+   (pin 999 1
+    (property 
+     (pinname A1)
+     (pintype 0)
+     (Name A1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V3_1)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname B1)
+     (pintype 0)
+     (Name B1)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V3_0)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname Y1)
+     (pintype 2)
+     (Name Y1)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N53460)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname Y2)
+     (pintype 2)
+     (Name Y2)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N53621)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname A2)
+     (pintype 0)
+     (Name A2)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V4_1)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname B2)
+     (pintype 0)
+     (Name B2)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V4_0)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname A3)
+     (pintype 0)
+     (Name A3)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V1_1)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname B3)
+     (pintype 0)
+     (Name B3)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V1_0)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname Y3)
+     (pintype 2)
+     (Name Y3)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N54323)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname Y4)
+     (pintype 2)
+     (Name Y4)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N54293)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname A4)
+     (pintype 0)
+     (Name A4)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V2_1)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname B4)
+     (pintype 0)
+     (Name B4)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" PinMuxCtrl_A1V2_0)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname Vcc)
+     (pintype 4)
+     (Name Vcc)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname Gnd)
+     (pintype 4)
+     (Name Gnd)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "EEH-ZS1H221P"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "220µF 50V Aluminum Polymer Capacitor Radial, Can - SMD 13mOhm 4000 Hrs @ 125°C")
+    (MF "Panasonic Electronic Components")
+    (MP "EEH-ZS1H221P"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image T598D106M050ATE090
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "10µF Molded Tantalum Polymer Capacitor 50V 2917 (7343 Metric) 90mOhm @ 100kHz")
+    (MF KEMET)
+    (MP T598D106M050ATE090)
+    ("PCB Footprint" "2917i-7343m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1333V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "133 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1333V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N14613)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF6653V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "665 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF6653V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N13256)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CRCW12100000Z0EA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+    (Digi_Key_Part_Number "541-0.0VCT-ND")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (MF "Vishay Dale")
+    (MP CRCW12100000Z0EA)
+    (OriginalSymbolOrigin "(-20000,20000)")
+    ("PCB Footprint" "1210i-3225m")
+    (Package "3225 Vishay"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "5-103669-2"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "V-In")
+     (Order 2)
+     ("Is No Connect" False))))
+  (image "5103308-3"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Connector Header Through Hole 16 position 0.100\" (2.54mm)")
+    (MF "TE Connectivity AMP Connectors")
+    (MP "5103308-3"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_0)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_1)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_2)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_3)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_4)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_5)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_6)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_7)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)
+     (Name 16)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 15)
+     ("Is No Connect" False))))
+  (image L77SDC37SOL2
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Price None)
+    (Package None)
+    ("PCB Footprint" Amphenol_L77SDC37SOL2)
+    (OriginalSymbolOrigin "(-220000,30000)")
+    (MP L77SDC37SOL2)
+    (MF "Amphenol ICC (Commercial Products)")
+    (Description "WR-DSUB FEMALE ANGLED PCB CONNEC")
+    (Availability Unavailable))
+   (pin 999 SHELL1
+    (property 
+     (pinname SHIELD__1)
+     (pintype 1)
+     (Name SHIELD__1)
+     (Number SHELL1)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 0)
+     ("Is No Connect" True)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 1)
+     ("Is No Connect" True)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 2)
+     ("Is No Connect" True)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V4_1)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V4_0)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V3_1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V3_0)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V2_1)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V2_0)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V1_1)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A2V1_0)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 12)
+     ("Is No Connect" True)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 14)
+     ("Is No Connect" True)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)
+     (Name 16)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 16)
+     ("Is No Connect" True)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)
+     (Name 17)
+     (Number 17)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)
+     (Name 18)
+     (Number 18)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 18)
+     ("Is No Connect" True)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)
+     (Name 19)
+     (Number 19)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 19)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)
+     (Name 20)
+     (Number 20)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 20)
+     ("Is No Connect" True)))
+   (pin 999 21
+    (property 
+     (pinname 21)
+     (pintype 4)
+     (Name 21)
+     (Number 21)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 21)
+     ("Is No Connect" False)))
+   (pin 999 22
+    (property 
+     (pinname 22)
+     (pintype 4)
+     (Name 22)
+     (Number 22)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit7)
+     (Order 22)
+     ("Is No Connect" False)))
+   (pin 999 23
+    (property 
+     (pinname 23)
+     (pintype 4)
+     (Name 23)
+     (Number 23)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit6)
+     (Order 23)
+     ("Is No Connect" False)))
+   (pin 999 24
+    (property 
+     (pinname 24)
+     (pintype 4)
+     (Name 24)
+     (Number 24)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit5)
+     (Order 24)
+     ("Is No Connect" False)))
+   (pin 999 25
+    (property 
+     (pinname 25)
+     (pintype 4)
+     (Name 25)
+     (Number 25)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit4)
+     (Order 25)
+     ("Is No Connect" False)))
+   (pin 999 26
+    (property 
+     (pinname 26)
+     (pintype 4)
+     (Name 26)
+     (Number 26)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit3)
+     (Order 26)
+     ("Is No Connect" False)))
+   (pin 999 27
+    (property 
+     (pinname 27)
+     (pintype 4)
+     (Name 27)
+     (Number 27)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit2)
+     (Order 27)
+     ("Is No Connect" False)))
+   (pin 999 28
+    (property 
+     (pinname 28)
+     (pintype 4)
+     (Name 28)
+     (Number 28)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit1)
+     (Order 28)
+     ("Is No Connect" False)))
+   (pin 999 29
+    (property 
+     (pinname 29)
+     (pintype 4)
+     (Name 29)
+     (Number 29)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit0)
+     (Order 29)
+     ("Is No Connect" False)))
+   (pin 999 30
+    (property 
+     (pinname 30)
+     (pintype 4)
+     (Name 30)
+     (Number 30)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V4_1)
+     (Order 30)
+     ("Is No Connect" False)))
+   (pin 999 31
+    (property 
+     (pinname 31)
+     (pintype 4)
+     (Name 31)
+     (Number 31)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V4_0)
+     (Order 31)
+     ("Is No Connect" False)))
+   (pin 999 32
+    (property 
+     (pinname 32)
+     (pintype 4)
+     (Name 32)
+     (Number 32)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V3_1)
+     (Order 32)
+     ("Is No Connect" False)))
+   (pin 999 33
+    (property 
+     (pinname 33)
+     (pintype 4)
+     (Name 33)
+     (Number 33)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V3_0)
+     (Order 33)
+     ("Is No Connect" False)))
+   (pin 999 34
+    (property 
+     (pinname 34)
+     (pintype 4)
+     (Name 34)
+     (Number 34)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V2_1)
+     (Order 34)
+     ("Is No Connect" False)))
+   (pin 999 35
+    (property 
+     (pinname 35)
+     (pintype 4)
+     (Name 35)
+     (Number 35)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V2_0)
+     (Order 35)
+     ("Is No Connect" False)))
+   (pin 999 36
+    (property 
+     (pinname 36)
+     (pintype 4)
+     (Name 36)
+     (Number 36)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V1_1)
+     (Order 36)
+     ("Is No Connect" False)))
+   (pin 999 37
+    (property 
+     (pinname 37)
+     (pintype 4)
+     (Name 37)
+     (Number 37)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PinMuxCtrl_A1V1_0)
+     (Order 37)
+     ("Is No Connect" False)))
+   (pin 999 SHELL
+    (property 
+     (pinname SHIELD)
+     (pintype 1)
+     (Name SHIELD)
+     (Number SHELL)
+     ("Swap Id" "-1")
+     (Type Bidirectional)
+     (Order 38)
+     ("Is No Connect" True))))
+  (image 618009233821
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Package None)
+    ("PCB Footprint" 618009233821)
+    (OriginalSymbolOrigin "(-70000,20000)")
+    (MP 618009233821)
+    (MF "Wurth Electronics")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/w-rth-elektronik/618009233821/732-618009233821-ND/10484675?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (Digi_Key_Part_Number "732-618009233821-ND")
+    (Description "WR-DSUB FEMALE ANGLED PCB CONNEC"))
+   (pin 999 SHELL1
+    (property 
+     (pinname SHIELD__1)
+     (pintype 4)
+     (Name SHIELD__1)
+     (Number SHELL1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A2V4)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A2V3)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A2V2)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A2V1)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A1V1)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A1V2)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A1V3)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ElectrodeDrive_A1V4)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 SHELL
+    (property 
+     (pinname SHIELD)
+     (pintype 4)
+     (Name SHIELD)
+     (Number SHELL)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 10)
+     ("Is No Connect" False))))
+  (image D25S13A4GL00LF
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "25 Position D-Sub Receptacle, Female Sockets Connector")
+    (MF "Amphenol ICC (FCI)")
+    (MP D25S13A4GL00LF))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 0)
+     ("Is No Connect" True)))
+   (pin 999 25
+    (property 
+     (pinname 25)
+     (pintype 4)
+     (Name 25)
+     (Number 25)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A2V4)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 24
+    (property 
+     (pinname 24)
+     (pintype 4)
+     (Name 24)
+     (Number 24)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_7)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A2V3)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 23
+    (property 
+     (pinname 23)
+     (pintype 4)
+     (Name 23)
+     (Number 23)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_6)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 22
+    (property 
+     (pinname 22)
+     (pintype 4)
+     (Name 22)
+     (Number 22)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A2V2)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 21
+    (property 
+     (pinname 21)
+     (pintype 4)
+     (Name 21)
+     (Number 21)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_5)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A2V1)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 20
+    (property 
+     (pinname 20)
+     (pintype 4)
+     (Name 20)
+     (Number 20)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_4)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 19
+    (property 
+     (pinname 19)
+     (pintype 4)
+     (Name 19)
+     (Number 19)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A1V4)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 18
+    (property 
+     (pinname 18)
+     (pintype 4)
+     (Name 18)
+     (Number 18)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_3)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A1V3)
+     (Order 16)
+     ("Is No Connect" False)))
+   (pin 999 17
+    (property 
+     (pinname 17)
+     (pintype 4)
+     (Name 17)
+     (Number 17)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 17)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_2)
+     (Order 18)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname 16)
+     (pintype 4)
+     (Name 16)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A1V2)
+     (Order 19)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 20)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_1)
+     (Order 21)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" ExtIn_A1V1)
+     (Order 22)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 23)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" DAC_Cmd_0)
+     (Order 24)
+     ("Is No Connect" False))))
+  (image 618015325223
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Availability Unavailable)
+    (Description "WR-DSUB FEMALE HIGH DENSITY ANGL")
+    (MF "Würth Elektronik")
+    (MP 618015325223)
+    (OriginalSymbolOrigin "(-70000,20000)")
+    ("PCB Footprint" Wurth_618015325223)
+    (Package None)
+    (Price None))
+   (pin 999 SHELL1
+    (property 
+     (pinname SHIELD__1)
+     (pintype 4)
+     (Name SHIELD__1)
+     (Number SHELL1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SpareOut_3)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SpareOut_2)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SpareOut_1)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" SpareOut_0)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit7)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit6)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit5)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" PortC_Bit4)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 SHELL
+    (property 
+     (pinname SHIELD)
+     (pintype 4)
+     (Name SHIELD)
+     (Number SHELL)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 16)
+     ("Is No Connect" False))))
+  (image "TSW-105-14-L-D-LL"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (MP "TSW-105-14-L-D-LL")
+    (MF "Samtec Inc.")
+    (Description "Connector Header Through Hole 10 position 0.100\" (2.54mm)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +5V)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +12V)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-6p65V")
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +6p65V)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "-26p1V")
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" +26p1V)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "V-In")
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" V+In)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 9)
+     ("Is No Connect" False))))
+  (image C1206C183J2GACAUTO
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "0.018µF ±5% 200V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)")
+    (MF KEMET)
+    (MP C1206C183J2GACAUTO)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N02031)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image CGA5L2C0G1H683J160AA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "0.068µF ±5% 50V Ceramic Capacitor C0G, NP0 1206 (3216 Metric)")
+    (MF KEMET)
+    (MP CGA5L2C0G1H683J160AA)
+    (OriginalSymbolOrigin "(0,10000)"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_SIGNAL)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N13256)
+     (Order 1)
+     ("Is No Connect" False)))))
+ (network
+  (net +12V
+    (property 
+     (nettype S))
+   (pins
+     U16-9 C80-1 C79-2 U17-3 K1-3 K2-3 K3-3 C82-2 K5-3
+     K6-3 K4-3 K10-3 K12-3 K8-3 K9-3 C87-2 U22-9 K7-3
+     K11-3 K17-3 K15-3 K18-3 K13-3 C88-2 U23-9 K14-3 K16-3
+     K19-3 K20-3 U24-9 K23-3 K24-3 K22-3 C89-2 K21-3 J7-6
+     J7-7 J7-8 J7-9 J8-2))
+  (net +26P1V
+    (property 
+     (nettype S))
+   (pins
+     U2-1 U2-2 U2-3 U2-9 C10-2 U4-4 C26-2 C29-1 C32-2
+     U8-4 C31-1 C42-2 C41-1 U9-4 C45-1 C46-2 U10-4 C49-1
+     U11-4 C50-2 U12-4 C54-2 C53-1 C57-1 U13-4 C58-2 C61-1
+     C62-2 U14-4 J8-6))
+  (net +5V
+    (property 
+     (nettype S))
+   (pins
+     U1-3 C7-2 C8-1 U19-14 C83-2 C84-2 C85-2 C86-2 U20-14
+     U25-14 U26-14 J7-15 J8-1))
+  (net +6P65V
+    (property 
+     (nettype S))
+   (pins
+     U5-1 U5-2 U5-3 U5-9 C15-2 U7-4 C24-2 C28-1 U15-4
+     C67-1 C69-2 J8-4))
+  (net "-26P1V"
+    (property 
+     (nettype S))
+   (pins
+     U3-9 U3-10 C13-2 U4-11 C23-2 C27-2 C34-2 U8-11 C33-2
+     C44-2 C43-2 U9-11 C48-2 U10-11 C47-2 C52-2 C51-2 U11-11
+     C55-2 U12-11 C56-2 C59-2 C60-2 U13-11 C64-2 C63-2 U14-11
+     J8-5))
+  (net "-6P65V"
+    (property 
+     (nettype S))
+   (pins
+     C19-2 U6-9 U6-10 U7-11 C25-2 C30-2 C71-2 U15-11 C72-2
+     J8-3))
+  (net DAC_CMD_0
+   (pins
+     J6-1 U4-3 J2-1))
+  (net DAC_CMD_1
+   (pins
+     J6-15 J2-3 U8-3))
+  (net DAC_CMD_2
+   (pins
+     J6-4 J2-5 U9-3))
+  (net DAC_CMD_3
+   (pins
+     J6-18 J2-7 U10-3))
+  (net DAC_CMD_4
+   (pins
+     J6-7 J2-9 U11-3))
+  (net DAC_CMD_5
+   (pins
+     J6-21 J2-11 U12-3))
+  (net DAC_CMD_6
+   (pins
+     J6-10 J2-13 U13-3))
+  (net DAC_CMD_7
+   (pins
+     J6-24 J2-15 U14-3))
+  (net DRIVESENSE_A1V1
+   (pins
+     U4-10 R5-2 K9-1))
+  (net DRIVESENSE_A1V2
+   (pins
+     R18-2 U8-10 K12-1))
+  (net DRIVESENSE_A1V3
+   (pins
+     R31-2 U9-10 K2-1))
+  (net DRIVESENSE_A1V4
+   (pins
+     U10-10 R38-2 K6-1))
+  (net DRIVESENSE_A2V1
+   (pins
+     R45-2 U11-10 K21-1))
+  (net DRIVESENSE_A2V2
+   (pins
+     U12-10 R52-2 K24-1))
+  (net DRIVESENSE_A2V3
+   (pins
+     R59-2 U13-10 K15-1))
+  (net DRIVESENSE_A2V4
+   (pins
+     U14-10 R66-2 K18-1))
+  (net ELECTRODECURRENT_A1V1
+   (pins
+     J3-2 U7-1 U7-2 C21-2))
+  (net ELECTRODECURRENT_A1V2
+   (pins
+     J3-4 U7-8 U7-9 C35-2))
+  (net ELECTRODECURRENT_A1V3
+   (pins
+     J3-6 U7-6 U7-7 C37-2))
+  (net ELECTRODECURRENT_A1V4
+   (pins
+     J3-8 U7-13 U7-14 C39-2))
+  (net ELECTRODECURRENT_A2V1
+   (pins
+     J3-10 C65-2 U15-1 U15-2))
+  (net ELECTRODECURRENT_A2V2
+   (pins
+     J3-12 C68-2 U15-6 U15-7))
+  (net ELECTRODECURRENT_A2V3
+   (pins
+     J3-14 C73-2 U15-8 U15-9))
+  (net ELECTRODECURRENT_A2V4
+   (pins
+     J3-16 C75-2 U15-13 U15-14))
+  (net ELECTRODEDRIVE_A1V1
+   (pins
+     J5-6 K7-5))
+  (net ELECTRODEDRIVE_A1V2
+   (pins
+     J5-7 K10-5))
+  (net ELECTRODEDRIVE_A1V3
+   (pins
+     J5-8 K1-5))
+  (net ELECTRODEDRIVE_A1V4
+   (pins
+     J5-9 K4-5))
+  (net ELECTRODEDRIVE_A2V1
+   (pins
+     J5-5 K19-5))
+  (net ELECTRODEDRIVE_A2V2
+   (pins
+     J5-4 K22-5))
+  (net ELECTRODEDRIVE_A2V3
+   (pins
+     J5-3 K13-5))
+  (net ELECTRODEDRIVE_A2V4
+   (pins
+     J5-2 K16-5))
+  (net EXTIN_A1V1
+   (pins
+     J6-2 K9-10))
+  (net EXTIN_A1V2
+   (pins
+     J6-16 K12-10))
+  (net EXTIN_A1V3
+   (pins
+     J6-5 K2-10))
+  (net EXTIN_A1V4
+   (pins
+     J6-19 K6-10))
+  (net EXTIN_A2V1
+   (pins
+     J6-8 K21-10))
+  (net EXTIN_A2V2
+   (pins
+     J6-22 K24-10))
+  (net EXTIN_A2V3
+   (pins
+     J6-11 K15-10))
+  (net EXTIN_A2V4
+   (pins
+     J6-25 K18-10))
+  (net GND_EARTH
+    (property 
+     (nettype S))
+   (pins
+     J5-SHELL1 J5-SHELL J7-SHELL1 J7-SHELL R77-1))
+  (net GND_SIGNAL
+    (property 
+     (nettype S))
+   (pins
+     J1-2 C1-2 C2-2 C3-1 C4-1 U1-2 C5-2 C6-1 C7-1
+     C8-2 C9-1 C10-1 R1-2 C11-1 U3-5 U3-8 C12-1 C13-1
+     C14-1 R2-2 J5-1 J6-12 J6-23 J6-9 J6-20 J6-6 J6-17
+     J6-3 J6-14 R3-1 R9-2 J2-2 J2-4 J2-6 J2-8 J2-10
+     J2-12 J2-14 J2-16 J3-1 J3-3 J3-5 J3-7 J3-9 J3-11
+     J3-13 J3-15 J4-11 J4-13 J4-15 J4-17 J4-19 J4-21 C16-1
+     C15-1 R10-2 R11-2 C17-1 C19-1 C18-1 U6-5 U6-8 C20-1
+     C22-1 C23-1 C24-1 C25-1 C26-1 C27-1 C28-2 C29-2 C30-1
+     R14-1 C34-1 C32-1 C31-2 R16-2 C33-1 C36-1 C42-1 C44-1
+     R27-1 C43-1 R29-2 C41-2 C45-2 R36-2 C46-1 C48-1 R34-1
+     C47-1 C49-2 C52-1 C51-1 C50-1 R43-2 R41-1 C55-1 R50-2
+     R48-1 C54-1 C56-1 C53-2 R57-2 R55-1 C59-1 C57-2 C60-1
+     C58-1 C64-1 C61-2 R64-2 C62-1 R62-1 C63-1 C71-1 C67-2
+     C69-1 C72-1 C70-1 C66-1 C38-1 C40-1 C74-1 C76-1 U16-8
+     C77-2 C80-2 C78-1 C79-1 U17-2 K3-1 U19-7 C82-1 C83-1
+     C84-1 C85-1 C86-1 U20-7 K5-1 K8-1 C87-1 U22-8 K11-1
+     K17-1 C88-1 U23-8 K14-1 K20-1 U24-8 K23-1 C89-1 U25-7
+     U26-7 J7-5 J7-10 R77-2 J8-9 J8-10))
+  (net N00395
+   (pins
+     C4-2 L2-2 U3-1 U3-2 U3-11 U3-3 U3-4 U3-6 C12-2
+     C18-2 U6-1 U6-2 U6-11 U6-3 U6-4 U6-6))
+  (net N00402
+   (pins
+     C2-1 L1-2 U2-5 U2-7 U2-8 C9-2 U5-5 U5-7 U5-8
+     C16-2))
+  (net N02031
+   (pins
+     U2-4 R1-1 C11-2))
+  (net N03542
+   (pins
+     U3-7 C14-2 R2-1))
+  (net N09995
+   (pins
+     U4-2 R3-2 R4-1))
+  (net N09999
+   (pins
+     U4-1 U4-5 R4-2 R5-1))
+  (net N10055
+   (pins
+     U4-6 U4-7 R6-1))
+  (net N10148
+   (pins
+     U4-8 U4-9 R7-1))
+  (net N10243
+   (pins
+     U4-12 R6-2 R9-1))
+  (net N10258
+   (pins
+     U4-13 R7-2 R8-1))
+  (net N10473
+   (pins
+     U4-14 R8-2 R12-1))
+  (net N13256
+   (pins
+     U5-4 R11-1 C17-2))
+  (net N14613
+   (pins
+     R10-1 U6-7 C20-2))
+  (net N18759
+   (pins
+     R12-2 R13-1 C21-1))
+  (net N18763
+   (pins
+     U7-3 R13-2 C22-2))
+  (net N20956
+   (pins
+     U8-2 R14-2 R15-1))
+  (net N20968
+   (pins
+     U8-1 R15-2 R18-1 U8-5))
+  (net N20976
+   (pins
+     R17-1 U8-6 U8-7))
+  (net N21028
+   (pins
+     R17-2 U8-12 R16-1))
+  (net N21266
+   (pins
+     U8-14 R20-2 R21-1))
+  (net N21290
+   (pins
+     U8-8 U8-9 R19-1))
+  (net N21306
+   (pins
+     U8-13 R20-1 R19-2))
+  (net N22066
+   (pins
+     C35-1 R22-1 R21-2))
+  (net N22154
+   (pins
+     U7-10 R22-2 C36-2))
+  (net N24201
+   (pins
+     U9-2 R27-2 R28-1))
+  (net N24213
+   (pins
+     U9-1 U9-5 R31-1 R28-2))
+  (net N24221
+   (pins
+     U9-6 U9-7 R30-1))
+  (net N24253
+   (pins
+     U9-12 R29-1 R30-2))
+  (net N24507
+   (pins
+     U9-14 R33-2 R23-1))
+  (net N24515
+   (pins
+     R32-1 U9-8 U9-9))
+  (net N24531
+   (pins
+     R32-2 U9-13 R33-1))
+  (net N25425
+   (pins
+     U10-2 R35-1 R34-2))
+  (net N25437
+   (pins
+     U10-1 R35-2 U10-5 R38-1))
+  (net N25445
+   (pins
+     U10-6 U10-7 R37-1))
+  (net N25477
+   (pins
+     R36-1 R37-2 U10-12))
+  (net N25731
+   (pins
+     U10-14 R40-2 R25-1))
+  (net N25739
+   (pins
+     U10-8 U10-9 R39-1))
+  (net N25755
+   (pins
+     R39-2 U10-13 R40-1))
+  (net N26693
+   (pins
+     U11-2 R42-1 R41-2))
+  (net N26705
+   (pins
+     U11-1 U11-5 R42-2 R45-1))
+  (net N26713
+   (pins
+     U11-6 U11-7 R44-1))
+  (net N26745
+   (pins
+     R44-2 U11-12 R43-1))
+  (net N26999
+   (pins
+     U11-14 R47-2 R69-1))
+  (net N27007
+   (pins
+     R46-1 U11-8 U11-9))
+  (net N27023
+   (pins
+     U11-13 R46-2 R47-1))
+  (net N27919
+   (pins
+     U12-2 R48-2 R49-1))
+  (net N27931
+   (pins
+     U12-1 R49-2 U12-5 R52-1))
+  (net N27939
+   (pins
+     U12-6 U12-7 R51-1))
+  (net N27971
+   (pins
+     U12-12 R50-1 R51-2))
+  (net N28225
+   (pins
+     U12-14 R54-2 R71-1))
+  (net N28233
+   (pins
+     U12-8 U12-9 R53-1))
+  (net N28249
+   (pins
+     U12-13 R53-2 R54-1))
+  (net N29185
+   (pins
+     U13-2 R55-2 R56-1))
+  (net N29197
+   (pins
+     U13-1 R56-2 U13-5 R59-1))
+  (net N29205
+   (pins
+     U13-6 U13-7 R58-1))
+  (net N29237
+   (pins
+     R57-1 U13-12 R58-2))
+  (net N29491
+   (pins
+     U13-14 R61-2 R73-1))
+  (net N29499
+   (pins
+     R60-1 U13-8 U13-9))
+  (net N29515
+   (pins
+     R60-2 U13-13 R61-1))
+  (net N30409
+   (pins
+     U14-2 R62-2 R63-1))
+  (net N30421
+   (pins
+     U14-1 R63-2 U14-5 R66-1))
+  (net N30429
+   (pins
+     U14-6 U14-7 R65-1))
+  (net N30461
+   (pins
+     R64-1 U14-12 R65-2))
+  (net N30715
+   (pins
+     U14-14 R68-2 R75-1))
+  (net N30723
+   (pins
+     U14-8 U14-9 R67-1))
+  (net N30739
+   (pins
+     U14-13 R68-1 R67-2))
+  (net N32871
+   (pins
+     C65-1 R70-1 R69-2))
+  (net N32977
+   (pins
+     R70-2 U15-3 C66-2))
+  (net N33093
+   (pins
+     C68-1 R72-1 R71-2))
+  (net N33231
+   (pins
+     R72-2 U15-5 C70-2))
+  (net N34811
+   (pins
+     R23-2 C37-1 R24-1))
+  (net N34917
+   (pins
+     C38-2 U7-5 R24-2))
+  (net N34969
+   (pins
+     C39-1 R26-1 R25-2))
+  (net N35075
+   (pins
+     U7-12 C40-2 R26-2))
+  (net N36498
+   (pins
+     C73-1 R74-1 R73-2))
+  (net N36604
+   (pins
+     R74-2 U15-10 C74-2))
+  (net N36656
+   (pins
+     R75-2 R76-1 C75-1))
+  (net N36762
+   (pins
+     R76-2 U15-12 C76-2))
+  (net N41239
+   (pins
+     K2-5 K3-10))
+  (net N41261
+   (pins
+     K1-10 K3-5))
+  (net N47087
+   (pins
+     K5-5 K4-10))
+  (net N47143
+   (pins
+     K5-10 K6-5))
+  (net N47304
+   (pins
+     U16-16 K2-8))
+  (net N47329
+   (pins
+     U16-15 K3-8))
+  (net N47354
+   (pins
+     U16-14 K1-8))
+  (net N47379
+   (pins
+     U16-10 K4-8))
+  (net N47404
+   (pins
+     U16-11 K5-8))
+  (net N47429
+   (pins
+     U16-12 K6-8))
+  (net N48424
+   (pins
+     U22-14 K7-8))
+  (net N48444
+   (pins
+     K8-5 K7-10))
+  (net N48484
+   (pins
+     K8-8 U22-15))
+  (net N48508
+   (pins
+     K8-10 K9-5))
+  (net N48544
+   (pins
+     K9-8 U22-16))
+  (net N48708
+   (pins
+     K12-8 U22-12))
+  (net N48716
+   (pins
+     U22-11 K11-8))
+  (net N48732
+   (pins
+     K10-8 U22-10))
+  (net N48824
+   (pins
+     K10-10 K11-5))
+  (net N48884
+   (pins
+     K12-5 K11-10))
+  (net N49750
+   (pins
+     K13-8 U23-14))
+  (net N49770
+   (pins
+     K13-10 K14-5))
+  (net N49810
+   (pins
+     U23-15 K14-8))
+  (net N49834
+   (pins
+     K15-5 K14-10))
+  (net N49870
+   (pins
+     K15-8 U23-16))
+  (net N50034
+   (pins
+     K18-8 U23-12))
+  (net N50042
+   (pins
+     K17-8 U23-11))
+  (net N50058
+   (pins
+     U23-10 K16-8))
+  (net N50150
+   (pins
+     K17-5 K16-10))
+  (net N50210
+   (pins
+     K17-10 K18-5))
+  (net N51104
+   (pins
+     K19-8 U24-14))
+  (net N51124
+   (pins
+     K19-10 K20-5))
+  (net N51164
+   (pins
+     K20-8 U24-15))
+  (net N51188
+   (pins
+     K20-10 K21-5))
+  (net N51224
+   (pins
+     U24-16 K21-8))
+  (net N51388
+   (pins
+     U24-12 K24-8))
+  (net N51396
+   (pins
+     U24-11 K23-8))
+  (net N51412
+   (pins
+     U24-10 K22-8))
+  (net N51504
+   (pins
+     K23-5 K22-10))
+  (net N51564
+   (pins
+     K23-10 K24-5))
+  (net N53405
+   (pins
+     U16-1 U19-3))
+  (net N53460
+   (pins
+     U16-3 U25-3))
+  (net N53532
+   (pins
+     U16-5 U19-6))
+  (net N53621
+   (pins
+     U16-7 U25-6))
+  (net N54293
+   (pins
+     U22-7 U25-11))
+  (net N54308
+   (pins
+     U19-11 U22-5))
+  (net N54323
+   (pins
+     U22-3 U25-8))
+  (net N54335
+   (pins
+     U19-8 U22-1))
+  (net N55572
+   (pins
+     U20-3 U23-1))
+  (net N55584
+   (pins
+     U23-3 U26-3))
+  (net N55687
+   (pins
+     U20-6 U23-5))
+  (net N55842
+   (pins
+     U23-7 U26-6))
+  (net N56124
+   (pins
+     U20-8 U24-1))
+  (net N56132
+   (pins
+     U24-3 U26-8))
+  (net N58431
+   (pins
+     U20-11 U24-5))
+  (net N58484
+   (pins
+     U24-7 U26-11))
+  (net PINMUXCTRL_A1V1_0
+   (pins
+     J4-37 U19-9 U25-10))
+  (net PINMUXCTRL_A1V1_1
+   (pins
+     J4-36 U19-10 U22-2 U25-9))
+  (net PINMUXCTRL_A1V2_0
+   (pins
+     J4-35 U19-12 U25-13))
+  (net PINMUXCTRL_A1V2_1
+   (pins
+     J4-34 U19-13 U22-6 U25-12))
+  (net PINMUXCTRL_A1V3_0
+   (pins
+     J4-33 U19-1 U25-2))
+  (net PINMUXCTRL_A1V3_1
+   (pins
+     J4-32 U16-2 U19-2 U25-1))
+  (net PINMUXCTRL_A1V4_0
+   (pins
+     J4-31 U19-4 U25-5))
+  (net PINMUXCTRL_A1V4_1
+   (pins
+     J4-30 U16-6 U19-5 U25-4))
+  (net PINMUXCTRL_A2V1_0
+   (pins
+     J4-10 U20-9 U26-10))
+  (net PINMUXCTRL_A2V1_1
+   (pins
+     J4-9 U20-10 U24-2 U26-9))
+  (net PINMUXCTRL_A2V2_0
+   (pins
+     J4-8 U20-12 U26-13))
+  (net PINMUXCTRL_A2V2_1
+   (pins
+     J4-7 U20-13 U24-6 U26-12))
+  (net PINMUXCTRL_A2V3_0
+   (pins
+     J4-6 U20-1 U26-2))
+  (net PINMUXCTRL_A2V3_1
+   (pins
+     J4-5 U20-2 U23-2 U26-1))
+  (net PINMUXCTRL_A2V4_0
+   (pins
+     J4-4 U20-4 U26-5))
+  (net PINMUXCTRL_A2V4_1
+   (pins
+     J4-3 U20-5 U23-6 U26-4))
+  (net PORTC_BIT0
+   (pins
+     J4-29 U22-4))
+  (net PORTC_BIT1
+   (pins
+     J4-28 U16-4))
+  (net PORTC_BIT2
+   (pins
+     J4-27 U24-4))
+  (net PORTC_BIT3
+   (pins
+     J4-26 U23-4))
+  (net PORTC_BIT4
+   (pins
+     J4-25 J7-14))
+  (net PORTC_BIT5
+   (pins
+     J4-24 J7-13))
+  (net PORTC_BIT6
+   (pins
+     J4-23 J7-12))
+  (net PORTC_BIT7
+   (pins
+     J4-22 J7-11))
+  (net SPAREOUT_0
+   (pins
+     U22-13 J7-4))
+  (net SPAREOUT_1
+   (pins
+     U16-13 J7-3))
+  (net SPAREOUT_2
+   (pins
+     U24-13 J7-2))
+  (net SPAREOUT_3
+   (pins
+     U23-13 J7-1))
+  (net V+IN
+    (property 
+     (nettype S))
+   (pins
+     J1-1 C1-1 L1-1 U1-1 C5-1 C6-2 C77-1 C78-2 U17-1
+     J8-8))
+  (net "V-IN"
+    (property 
+     (nettype S))
+   (pins
+     J1-3 C3-2 L2-1 J8-7)))
+)

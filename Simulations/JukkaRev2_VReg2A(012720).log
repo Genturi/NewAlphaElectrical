@@ -1,0 +1,201 @@
+Circuit: * C:\Repositories\Alpha-Electrical\PCBs\JukkaInterface2(Amaranth 30-0008)\Simulations\JukkaRev2_VReg2A(012720).asc
+
+u9:c6: both pins shorted together -- ignoring.
+u1:c6: both pins shorted together -- ignoring.
+Ignoring empty pin current: Ix(u9:2)
+Ignoring empty pin current: Ix(u10:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Gmin = 10000
+Gmin = 1073.74
+Gmin = 115.292
+Gmin = 12.3794
+Gmin = 1.32923
+Gmin = 0.142725
+Gmin = 0.015325
+Gmin = 0.0016455
+Gmin = 0.000176685
+Gmin = 1.89714e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 6.90727e-006
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 1.70455%
+Source Step = 3.59848%
+Source Step = 5.49242%
+Source Step = 7.38636%
+Source Step = 9.2803%
+vernier = 0.09375
+Source Step = 11.9318%
+Source Step = 14.7727%
+Source Step = 17.6136%
+Source Step = 20.4545%
+Source Step = 23.2955%
+vernier = 0.140625
+Source Step = 27.1307%
+Source Step = 29.0483%
+Source Step = 30.1136%
+Source Step = 31.179%
+Source Step = 32.2443%
+Source Step = 33.3097%
+vernier = 0.0527344
+Source Step = 34.6413%
+Source Step = 36.2393%
+Source Step = 37.8374%
+Source Step = 39.4354%
+Source Step = 41.0334%
+vernier = 0.0791016
+Source Step = 42.951%
+Source Step = 45.348%
+Source Step = 47.745%
+Source Step = 50.142%
+Source Step = 52.5391%
+vernier = 0.118652
+Source Step = 55.2956%
+Source Step = 58.8912%
+Source Step = 62.4867%
+Source Step = 66.0822%
+Source Step = 69.6777%
+vernier = 0.177979
+Source Step = 73.6328%
+Source Step = 79.0261%
+Source Step = 84.4194%
+Source Step = 89.8127%
+Source Step = 95.206%
+vernier = 0.266968
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u2:3      d:u2:2      d:u2:1      d:u1:4      d:u1:3
+Model:    u2:x      u2:300ua     u2:10ua     u1:esd1     u1:esd1
+Id:     -1.98e-11    3.00e-04    1.00e-05    0.00e+00   -2.09e-08
+Vd:     -1.98e+01    2.09e+01    2.09e+01    0.00e+00   -2.09e+01
+Req:     1.00e-12    1.67e-04    1.67e-04    1.00e-09    1.00e-09
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:8      d:u1:7      d:u1:6      d:u1:5      d:u1:2
+Model:   u1:typd     u1:typd     u1:typd     u1:typd     u1:typd
+Id:     -2.70e-11   -3.89e-11   -3.89e-11   -7.29e-13   -2.65e-11
+Vd:     -2.70e+01   -3.89e+01   -3.89e+01   -7.28e-01   -2.65e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:1      d:u10:3     d:u10:2     d:u10:1     d:u9:4
+Model:   u1:esdd      u10:x     u10:300ua   u10:10ua     u9:esd1
+Id:      0.00e+00   -2.86e-13    1.49e-04    1.00e-05    0.00e+00
+Vd:      0.00e+00   -2.86e-01    1.50e+00    1.50e+00    0.00e+00
+Req:     2.50e-07    1.00e-12    1.67e-04    1.67e-04    1.00e-09
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u9:3      d:u9:8      d:u9:7      d:u9:6      d:u9:5
+Model:   u9:esd1     u9:typd     u9:typd     u9:typd     u9:typd
+Id:     -1.45e-09   -2.70e-11   -3.89e-11   -3.89e-11   -7.29e-13
+Vd:     -1.45e+00   -2.70e+01   -3.88e+01   -3.88e+01   -7.28e-01
+Req:     1.00e-09    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u9:2      d:u9:1
+Model:   u9:typd     u9:esdd
+Id:     -2.64e-11    0.00e+00
+Vd:     -2.64e+01    0.00e+00
+Req:     1.00e+12    2.50e-07
+CAP:     0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:u2:1      q:u1:6      q:u1:5      q:u1:4      q:u1:3
+Model:     u2:n       u1:imon     u1:imir     u1:imir     u1:ilim
+Ib:       8.67e-08    3.29e-10   -8.01e-11   -1.07e-10   -2.23e-06
+Ic:       8.67e-04    5.33e-07   -5.33e-07   -5.33e-07   -3.34e-04
+Vbe:      1.19e+00    5.79e-01   -5.79e-01   -5.79e-01   -7.28e-01
+Vbc:     -1.98e+01   -2.64e+01    2.70e+01    0.00e+00    2.59e+01
+Vce:      2.09e+01    2.70e+01   -2.76e+01   -5.79e-01   -2.66e+01
+BetaDC:   1.00e+04    1.62e+03    6.65e+03    4.97e+03    1.50e+02
+Gm:       3.35e-02    2.06e-05    2.06e-05    2.06e-05    1.29e-02
+Rpi:      2.98e+05    7.28e+07    2.43e+08    2.43e+08    1.16e+04
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       0.00e+00    0.00e+00    0.00e+00    2.59e+14    0.00e+00
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.00e+04    1.50e+03    5.00e+03    5.00e+03    1.50e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:     q:u1:2      q:u1:1      q:u10:1     q:u9:6      q:u9:5
+Model:    u1:ilim     u1:pelm      u10:n      u9:imon     u9:imir
+Ib:      -1.11e-06    6.65e-08    2.42e-07    9.78e-10   -2.75e-10
+Ic:      -1.67e-04    6.65e-04    2.42e-03    1.51e-06   -1.51e-06
+Vbe:     -7.28e-01    1.12e+00    1.21e+00    6.06e-01   -6.06e-01
+Vbc:      2.69e+01   -1.98e+01   -2.86e-01   -2.64e+01    2.70e+01
+Vce:     -2.76e+01    2.09e+01    1.50e+00    2.70e+01   -2.76e+01
+BetaDC:   1.50e+02    1.00e+04    1.00e+04    1.54e+03    5.48e+03
+Gm:       6.46e-03    2.57e-02    9.35e-02    5.82e-05    5.82e-05
+Rpi:      2.32e+04    3.89e+05    1.07e+05    2.58e+07    8.59e+07
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       0.00e+00    0.00e+00    1.63e+26    0.00e+00    0.00e+00
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.50e+02    1.00e+04    1.00e+04    1.50e+03    5.00e+03
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:     q:u9:4      q:u9:3      q:u9:2      q:u9:1
+Model:    u9:imir     u9:ilim     u9:ilim     u9:pelm
+Ib:      -3.02e-10   -2.23e-06   -1.11e-06    2.62e-07
+Ic:      -1.51e-06   -3.34e-04   -1.67e-04    2.62e-03
+Vbe:     -6.06e-01   -7.28e-01   -7.28e-01    1.16e+00
+Vbc:      0.00e+00    2.59e+01    2.69e+01   -2.92e-01
+Vce:     -6.06e-01   -2.66e+01   -2.76e+01    1.45e+00
+BetaDC:   4.99e+03    1.50e+02    1.50e+02    1.00e+04
+Gm:       5.82e-05    1.29e-02    6.46e-03    1.01e-01
+Rpi:      8.59e+07    1.16e+04    2.32e+04    9.89e+04
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       2.59e+14    0.00e+00    0.00e+00    2.11e+25
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   5.00e+03    1.50e+02    1.50e+02    1.00e+04
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Fri Feb 07 10:15:40 2020
+Total elapsed time: 0.257 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 3765
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 58
+fillins = 42
+solver = Normal
+Thread vector: 6.9/4.8[3] 0.0/0.0[0] 3.5/2.7[3] 0.2/1.0[1]  2592/500
+Matrix Compiler1: 4.86 KB object code size
+Matrix Compiler2: 6.27 KB object code size  0.5/0.8/[0.3]
+

@@ -1,0 +1,138 @@
+Circuit: * C:\Repositories\Alpha-Electrical\PCBs\JukkaInterface(Alpenglow 30-0005)\Revision2\Simulations\JukkaRev2_Model2C(012220).asc
+
+WARNING: Less than two connections to node CMDVOLTAGEMINUS.  This node is used by V4.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.30127e-008
+vernier = 0.166667
+vernier = 0.0833333
+vernier = 0.0416667
+vernier = 0.0208333
+vernier = 0.0104167
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+vernier = 0.000651042
+Gmin = 1.30106e-008
+vernier = 0.000868055
+Gmin = 1.29852e-008
+vernier = 0.00115741
+vernier = 0.00154321
+Gmin = 1.29427e-008
+vernier = 0.00205761
+vernier = 0.00274348
+Gmin = 1.28752e-008
+vernier = 0.00365797
+Gmin = 1.27698e-008
+vernier = 0.0048773
+vernier = 0.00650306
+Gmin = 1.25946e-008
+vernier = 0.00867074
+vernier = 0.011561
+Gmin = 1.23204e-008
+vernier = 0.0154146
+Gmin = 1.19012e-008
+vernier = 0.0205529
+vernier = 0.0274038
+Gmin = 1.12298e-008
+vernier = 0.0365384
+vernier = 0.0487178
+Gmin = 1.02384e-008
+vernier = 0.0649571
+Gmin = 8.8558e-009
+vernier = 0.0866095
+vernier = 0.115479
+vernier = 0.0577396
+vernier = 0.0288698
+vernier = 0.0144349
+Gmin = 7.78769e-009
+vernier = 0.00721745
+vernier = 0.00360873
+vernier = 0.00180436
+vernier = 0.000902182
+vernier = 0.000451091
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 1.08902%
+Source Step = 1.5625%
+Source Step = 2.03598%
+Source Step = 2.50947%
+Source Step = 2.98295%
+vernier = 0.0234375
+Source Step = 3.59848%
+Source Step = 4.30871%
+Source Step = 5.01894%
+Source Step = 5.72917%
+Source Step = 6.43939%
+vernier = 0.0351563
+Source Step = 7.32718%
+Source Step = 8.39252%
+Source Step = 9.45786%
+Source Step = 10.5232%
+Source Step = 11.5885%
+vernier = 0.0527344
+Source Step = 12.867%
+Source Step = 14.465%
+Source Step = 16.063%
+Source Step = 17.661%
+Source Step = 19.259%
+vernier = 0.0791016
+Source Step = 21.0967%
+Source Step = 23.4937%
+Source Step = 25.8907%
+Source Step = 28.2878%
+Source Step = 30.6848%
+vernier = 0.118652
+Source Step = 33.3215%
+Source Step = 36.917%
+Source Step = 40.5125%
+Source Step = 44.1081%
+Source Step = 47.7036%
+vernier = 0.177979
+Source Step = 51.4789%
+Source Step = 56.8722%
+Source Step = 62.2655%
+Source Step = 67.6588%
+Source Step = 73.0521%
+Source Step = 78.4453%
+vernier = 0.266968
+Source Step = 86.5353%
+Source Step = 94.6252%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Mon Jan 27 07:42:47 2020
+Total elapsed time: 0.731 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6903
+traniter = 2096
+tranpoints = 1049
+accept = 1049
+rejected = 0
+matrix size = 74
+fillins = 181
+solver = Normal
+Thread vector: 14.2/11.4[4] 3.1/2.2[4] 2.1/1.7[4] 0.3/1.0[1]  2592/500
+Matrix Compiler1: 26.35 KB object code size  3.2/1.7/[0.9]
+Matrix Compiler2: 10.69 KB object code size  0.8/1.3/[0.4]
+

@@ -1,0 +1,14 @@
+Assembly Variant Service has detected improper attribute values
+
+Fri Feb 28 14:48:01 2020
+
+Current Job : 31-0008_placement.pcb
+
+
+Format:
+OBJ_NAME
+OLD_VALUE{EMPTY;TOO_LONG}
+NEW_VALUE{DELETED;TOO_LONG}
+RESUME
+
+

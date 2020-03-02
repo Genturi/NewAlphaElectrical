@@ -1,0 +1,79 @@
+Circuit: * C:\Repositories\Alpha-Electrical\PCBs\JukkaInterface(Alpenglow 30-0005)\Revision2\Simulations\JukkaRev2_Model2A(012220).asc
+
+WARNING: Less than two connections to node CMDVOLTAGEPLUS.  This node is used by V3.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.34908e-008
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 2.84091%
+Source Step = 4.73485%
+Source Step = 6.62879%
+Source Step = 8.52273%
+Source Step = 10.4167%
+vernier = 0.09375
+Source Step = 12.8788%
+Source Step = 15.7197%
+Source Step = 18.5606%
+Source Step = 21.4015%
+Source Step = 24.2424%
+vernier = 0.140625
+Source Step = 27.7936%
+Source Step = 32.0549%
+Source Step = 36.3163%
+Source Step = 40.5777%
+Source Step = 44.839%
+vernier = 0.210938
+Source Step = 49.9527%
+Source Step = 56.3447%
+Source Step = 62.7367%
+Source Step = 69.1288%
+Source Step = 75.5208%
+vernier = 0.316406
+Source Step = 82.8717%
+Source Step = 92.4598%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Fri Jan 24 17:00:26 2020
+Total elapsed time: 0.130 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5136
+traniter = 2096
+tranpoints = 1049
+accept = 1049
+rejected = 0
+matrix size = 24
+fillins = 17
+solver = Normal
+Matrix Compiler1: 3.29 KB object code size  0.5/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.3/0.3
+
