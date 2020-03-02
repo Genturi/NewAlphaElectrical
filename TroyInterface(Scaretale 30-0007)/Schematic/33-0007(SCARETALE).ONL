@@ -1,0 +1,1240 @@
+(PCB "33-0007(SCARETALE)"
+ (description
+  (timeStamp "2019 11 18 22 30 37")
+  (program "CAPTURE.EXE" (Version "17.2-2016"))
+  (source "Original data from OrCAD/CAPTURE schematic")
+  (title "BMC-7 Interface (Scaretale)")
+  (date "Monday, November 18, 2019")
+  (document "33-0007")
+  (revision "1")
+  (organization "Genturi, Inc")
+  (address1 "8 Cabot Rd.")
+  (address2 "Suite 4400")
+  (address3 "Woburn, MA   01801")
+  (address4 "")
+  (partvaluecombine "{Value}")
+  (pcbfootprintcombine "{PCB Footprint}"))
+ (structure )
+ (placement
+  (component "ERJ-3EKF1000V"
+   (place R5
+    (property 
+     (timestamp 00001FB3)
+     ("Source Package" "ERJ-3EKF1000V")
+     (MF "Panasonic Electronic Components")
+     (Value "100 Ohm/1%")
+     (Description "RES SMD 100 OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1000V")))
+   (place R6
+    (property 
+     (timestamp 000022CA)
+     ("Source Package" "ERJ-3EKF1000V")
+     (MF "Panasonic Electronic Components")
+     (Value "100 Ohm/1%")
+     (Description "RES SMD 100 OHM 1% 1/10W 0603")
+     ("PCB Footprint" "0603i-1608m")
+     (MP "ERJ-3EKF1000V"))))
+  (component 618015325223
+   (place J2
+    (property 
+     (Availability Unavailable)
+     (Price None)
+     (timestamp 000000BB)
+     ("Source Package" 618015325223)
+     (MF "Würth Elektronik")
+     (OriginalSymbolOrigin "(-70000,20000)")
+     (Package None)
+     (Value 618015325223)
+     (Description "WR-DSUB FEMALE HIGH DENSITY ANGL")
+     ("PCB Footprint" Wurth_618015325223)
+     (MP 618015325223))))
+  (component C3216C0G1H104J160AA
+   (place C4
+    (property 
+     (timestamp 000019D2)
+     ("Source Package" C3216C0G1H104J160AA)
+     (MF TDK)
+     (OriginalSymbolOrigin "(0,10000)")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Package "3216 TDK")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C5
+    (property 
+     (timestamp 000019E2)
+     ("Source Package" C3216C0G1H104J160AA)
+     (MF TDK)
+     (OriginalSymbolOrigin "(0,10000)")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Package "3216 TDK")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C6
+    (property 
+     (timestamp 000019F2)
+     ("Source Package" C3216C0G1H104J160AA)
+     (MF TDK)
+     (OriginalSymbolOrigin "(0,10000)")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Package "3216 TDK")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C7
+    (property 
+     (timestamp 00001A02)
+     ("Source Package" C3216C0G1H104J160AA)
+     (MF TDK)
+     (OriginalSymbolOrigin "(0,10000)")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Package "3216 TDK")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place C8
+    (property 
+     (timestamp 00001ED6)
+     ("Source Package" C3216C0G1H104J160AA)
+     (MF TDK)
+     (OriginalSymbolOrigin "(0,10000)")
+     (Digi_Key_Part_Number "445-7694-1-ND")
+     (Package "3216 TDK")
+     (Value 0.1uF/50V)
+     (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor")
+     ("PCB Footprint" "1206i-3216m")
+     (MP C3216C0G1H104J160AA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"))))
+  (component "5-103669-7"
+   (place J4
+    (property 
+     (timestamp 00000141)
+     ("Source Package" "5-103669-7")
+     (MF "TE Connectivity AMP Connectors")
+     (Value "5-103669-7")
+     (Description "Connector Header Through Hole 8 position 0.100\" (2.54mm)")
+     ("PCB Footprint" "TE_Conn_5-103669-7")
+     (MP "5-103669-7"))))
+  (component "5-103639-9"
+   (place J1
+    (property 
+     (timestamp 00000066)
+     ("Source Package" "5-103639-9")
+     (MF "TE Connectivity AMP Connectors")
+     (Value "5-103639-9")
+     (Description "Connector Header Through Hole 10 position 0.100\" (2.54mm)")
+     (MP "5-103639-9"))))
+  (component 875105344010
+   (place C1
+    (property 
+     (timestamp 00000326)
+     ("Source Package" 875105344010)
+     (MF "Würth Elektronik")
+     (Value 100uF/16V)
+     (Description "100µF 16V Aluminum Polymer Capacitor Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C")
+     (PCB_Footprint Wurth_875105344010)
+     ("PCB Footprint" Wurth_875105344010)
+     (MP 875105344010)))
+   (place C2
+    (property 
+     (timestamp 00000853)
+     ("Source Package" 875105344010)
+     (MF "Würth Elektronik")
+     (Value 100uF/16V)
+     (Description "100µF 16V Aluminum Polymer Capacitor Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C")
+     (PCB_Footprint Wurth_875105344010)
+     ("PCB Footprint" Wurth_875105344010)
+     (MP 875105344010)))
+   (place C3
+    (property 
+     (timestamp 0000086D)
+     ("Source Package" 875105344010)
+     (MF "Würth Elektronik")
+     (Value 100uF/16V)
+     (Description "100µF 16V Aluminum Polymer Capacitor Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C")
+     (PCB_Footprint Wurth_875105344010)
+     ("PCB Footprint" Wurth_875105344010)
+     (MP 875105344010))))
+  (component ISO7761QDBQQ1
+   (place U1
+    (property 
+     (timestamp 000015A9)
+     ("Source Package" ISO7761QDBQQ1)
+     (MF "Texas Instruments")
+     (Value ISO7761QDBQQ1)
+     (Description "6 channel digital isolator")
+     (PCB_Footprint "SSOP-16")
+     ("PCB Footprint" "SSOP-16")
+     (MP ISO7761QDBQQ1)))
+   (place U2
+    (property 
+     (timestamp 000015D5)
+     ("Source Package" ISO7761QDBQQ1)
+     (MF "Texas Instruments")
+     (Value ISO7761QDBQQ1)
+     (Description "6 channel digital isolator")
+     (PCB_Footprint "SSOP-16")
+     ("PCB Footprint" "SSOP-16")
+     (MP ISO7761QDBQQ1))))
+  (component L717HDE15PD1CH4R
+   (place J3
+    (property 
+     (Price None)
+     (Availability Unavailable)
+     (timestamp 00000110)
+     ("Source Package" L717HDE15PD1CH4R)
+     (OriginalSymbolOrigin "(-70000,20000)")
+     (MF "Würth Elektronik")
+     (Package None)
+     (Value L717HDE15PD1CH4R)
+     (Description "15 Position D-Sub, High Density Plug, Male Pins Connector")
+     ("PCB Footprint" Amphenol_L717HDE15PD1CH4R)
+     (MP L717HDE15PD1CH4R))))
+  (component CRCW12100000Z0EA
+   (place R1
+    (property 
+     (timestamp 00000495)
+     ("Source Package" CRCW12100000Z0EA)
+     (MF "Vishay Dale")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Package "3225 Vishay")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" "1210i-3225m")
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place R2
+    (property 
+     (timestamp 000004A5)
+     ("Source Package" CRCW12100000Z0EA)
+     (MF "Vishay Dale")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Package "3225 Vishay")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" "1210i-3225m")
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place R3
+    (property 
+     (timestamp 000004B5)
+     ("Source Package" CRCW12100000Z0EA)
+     (MF "Vishay Dale")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Package "3225 Vishay")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" "1210i-3225m")
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))
+   (place R4
+    (property 
+     (timestamp 000004C5)
+     ("Source Package" CRCW12100000Z0EA)
+     (MF "Vishay Dale")
+     (OriginalSymbolOrigin "(-20000,20000)")
+     (Digi_Key_Part_Number "541-0.0VCT-ND")
+     (Package "3225 Vishay")
+     (Value "0 Ohm")
+     (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR")
+     ("PCB Footprint" "1210i-3225m")
+     (MP CRCW12100000Z0EA)
+     (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")))))
+ (library
+  (image ISO7761QDBQQ1
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "6 channel digital isolator")
+    (MF "Texas Instruments")
+    (MP ISO7761QDBQQ1)
+    (PCB_Footprint "SSOP-16"))
+   (pin 999 1
+    (property 
+     (pinname Vcc1)
+     (pintype 4)
+     (Name Vcc1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_MARCO)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 16
+    (property 
+     (pinname Vcc2)
+     (pintype 4)
+     (Name Vcc2)
+     (Number 16)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "VCC_BMC-7")
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname Gnd1)
+     (pintype 4)
+     (Name Gnd1)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname Gnd2)
+     (pintype 4)
+     (Name Gnd2)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "GND_BMC-7")
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname InA)
+     (pintype 0)
+     (Name InA)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Input)
+     ("Net Name" N08125)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname InB)
+     (pintype 0)
+     (Name InB)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 5)
+     ("Is No Connect" True)))
+   (pin 999 4
+    (property 
+     (pinname InC)
+     (pintype 0)
+     (Name InC)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 6)
+     ("Is No Connect" True)))
+   (pin 999 5
+    (property 
+     (pinname InD)
+     (pintype 0)
+     (Name InD)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 7)
+     ("Is No Connect" True)))
+   (pin 999 6
+    (property 
+     (pinname InE)
+     (pintype 0)
+     (Name InE)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 8)
+     ("Is No Connect" True)))
+   (pin 999 7
+    (property 
+     (pinname OutF)
+     (pintype 2)
+     (Name OutF)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 9)
+     ("Is No Connect" True)))
+   (pin 999 11
+    (property 
+     (pinname OutE)
+     (pintype 2)
+     (Name OutE)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 10)
+     ("Is No Connect" True)))
+   (pin 999 12
+    (property 
+     (pinname OutD)
+     (pintype 2)
+     (Name OutD)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 11)
+     ("Is No Connect" True)))
+   (pin 999 13
+    (property 
+     (pinname OutC)
+     (pintype 2)
+     (Name OutC)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 12)
+     ("Is No Connect" True)))
+   (pin 999 14
+    (property 
+     (pinname OutB)
+     (pintype 2)
+     (Name OutB)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Output)
+     (Order 13)
+     ("Is No Connect" True)))
+   (pin 999 15
+    (property 
+     (pinname OutA)
+     (pintype 2)
+     (Name OutA)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Output)
+     ("Net Name" N08912)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname InF)
+     (pintype 0)
+     (Name InF)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Input)
+     (Order 15)
+     ("Is No Connect" True))))
+  (image CRCW12100000Z0EA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Package "3225 Vishay")
+    ("PCB Footprint" "1210i-3225m")
+    (OriginalSymbolOrigin "(-20000,20000)")
+    (MP CRCW12100000Z0EA)
+    (MF "Vishay Dale")
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/vishay-dale/CRCW12100000Z0EA/541-0.0VCT-ND/1182217?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (Digi_Key_Part_Number "541-0.0VCT-ND")
+    (Description "Resistor; Thick Film; 0 Ohms; 0.5 W; 0 Ohms Jumper; SMT; 1210; TCR 0 ppm/DegC; TR"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EARTH)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01276)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "ERJ-3EKF1000V"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "RES SMD 100 OHM 1% 1/10W 0603")
+    (MF "Panasonic Electronic Components")
+    (MP "ERJ-3EKF1000V")
+    ("PCB Footprint" "0603i-1608m"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N08125)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N08146)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image 875105344010
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "100µF 16V Aluminum Polymer Capacitor Radial, Can - SMD 20mOhm 2000 Hrs @ 105°C")
+    (MF "Würth Elektronik")
+    (MP 875105344010)
+    (PCB_Footprint Wurth_875105344010))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "VCC_BMC-7")
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "GND_BMC-7")
+     (Order 1)
+     ("Is No Connect" False))))
+  (image C3216C0G1H104J160AA
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Package "3216 TDK")
+    ("PCB Footprint" "1206i-3216m")
+    (OriginalSymbolOrigin "(0,10000)")
+    (MP C3216C0G1H104J160AA)
+    (MF TDK)
+    (Digi_Key_Purchase_URL "https://www.digikey.com/product-detail/en/tdk-corporation/C3216C0G1H104J160AA/445-7694-1-ND/2733766?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol")
+    (Digi_Key_Part_Number "445-7694-1-ND")
+    (Description "C Series 1206 0.1 uF 50 V 5 PCT Tolerance C0G SMT Multilayer Ceramic Capacitor"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_MARCO)
+     (Order 1)
+     ("Is No Connect" False))))
+  (image "5-103639-9"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Connector Header Through Hole 10 position 0.100\" (2.54mm)")
+    (MF "TE Connectivity AMP Connectors")
+    (MP "5-103639-9")
+    ("PCB Footprint" "TE_Conn_5-103639-9"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N08916)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "GND_BMC-7")
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" MODE_OUT)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" #ENABLE_OUT)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" LINE_1_OUT)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" LINE_2_OUT)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "GND_BMC-7")
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" #AT_SYNCH_IN)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 8)
+     ("Is No Connect" True)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 9)
+     ("Is No Connect" True))))
+  (image 618015325223
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Price None)
+    (Package None)
+    ("PCB Footprint" Wurth_618015325223)
+    (OriginalSymbolOrigin "(-70000,20000)")
+    (MP 618015325223)
+    (MF "Würth Elektronik")
+    (Description "WR-DSUB FEMALE HIGH DENSITY ANGL")
+    (Availability Unavailable))
+   (pin 999 SHELL1
+    (property 
+     (pinname SHIELD__1)
+     (pintype 4)
+     (Name SHIELD__1)
+     (Number SHELL1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01276)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_MARCO)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_MARCO)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N08125)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_MARCO)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 SHELL
+    (property 
+     (pinname SHIELD)
+     (pintype 4)
+     (Name SHIELD)
+     (Number SHELL)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N01276)
+     (Order 16)
+     ("Is No Connect" False))))
+  (image L717HDE15PD1CH4R
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Availability Unavailable)
+    (Description "15 Position D-Sub, High Density Plug, Male Pins Connector")
+    (MF "Würth Elektronik")
+    (MP L717HDE15PD1CH4R)
+    (OriginalSymbolOrigin "(-70000,20000)")
+    ("PCB Footprint" Amphenol_L717HDE15PD1CH4R)
+    (Package None)
+    (Price None))
+   (pin 999 SHELL1
+    (property 
+     (pinname SHIELD__1)
+     (pintype 4)
+     (Name SHIELD__1)
+     (Number SHELL1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N03570)
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" MODE_IN)
+     (Order 2)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 3)
+     ("Is No Connect" False)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" LINE_2_IN)
+     (Order 4)
+     ("Is No Connect" False)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 5)
+     ("Is No Connect" False)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_EMPPU)
+     (Order 6)
+     ("Is No Connect" False)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 7)
+     ("Is No Connect" False)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" LINE_1_IN)
+     (Order 8)
+     ("Is No Connect" False)))
+   (pin 999 9
+    (property 
+     (pinname 9)
+     (pintype 4)
+     (Name 9)
+     (Number 9)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 9)
+     ("Is No Connect" False)))
+   (pin 999 10
+    (property 
+     (pinname 10)
+     (pintype 4)
+     (Name 10)
+     (Number 10)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" #ENABLE_IN)
+     (Order 10)
+     ("Is No Connect" False)))
+   (pin 999 11
+    (property 
+     (pinname 11)
+     (pintype 4)
+     (Name 11)
+     (Number 11)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 11)
+     ("Is No Connect" False)))
+   (pin 999 12
+    (property 
+     (pinname 12)
+     (pintype 4)
+     (Name 12)
+     (Number 12)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" VCC_EMPPU)
+     (Order 12)
+     ("Is No Connect" False)))
+   (pin 999 13
+    (property 
+     (pinname 13)
+     (pintype 4)
+     (Name 13)
+     (Number 13)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 13)
+     ("Is No Connect" False)))
+   (pin 999 14
+    (property 
+     (pinname 14)
+     (pintype 4)
+     (Name 14)
+     (Number 14)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" #AT_SYNCH_OUT)
+     (Order 14)
+     ("Is No Connect" False)))
+   (pin 999 15
+    (property 
+     (pinname 15)
+     (pintype 4)
+     (Name 15)
+     (Number 15)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" GND_EMPPU)
+     (Order 15)
+     ("Is No Connect" False)))
+   (pin 999 SHELL
+    (property 
+     (pinname SHIELD)
+     (pintype 4)
+     (Name SHIELD)
+     (Number SHELL)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" N03570)
+     (Order 16)
+     ("Is No Connect" False))))
+  (image "5-103669-7"
+   (property 
+    (sourcelib C:\\REPOSITORIES\\ORCAD_LIBRARY\\ORCAD_GENTURI_LIB2.OLB)
+    (Description "Connector Header Through Hole 8 position 0.100\" (2.54mm)")
+    (MF "TE Connectivity AMP Connectors")
+    (MP "5-103669-7")
+    ("PCB Footprint" "TE_Conn_5-103669-7"))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "VCC_BMC-7")
+     (Order 0)
+     ("Is No Connect" False)))
+   (pin 999 2
+    (property 
+     (pinname 2)
+     (pintype 4)
+     (Name 2)
+     (Number 2)
+     ("Swap Id" "-1")
+     (Type Passive)
+     ("Net Name" "GND_BMC-7")
+     (Order 1)
+     ("Is No Connect" False)))
+   (pin 999 3
+    (property 
+     (pinname 3)
+     (pintype 4)
+     (Name 3)
+     (Number 3)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 2)
+     ("Is No Connect" True)))
+   (pin 999 4
+    (property 
+     (pinname 4)
+     (pintype 4)
+     (Name 4)
+     (Number 4)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 3)
+     ("Is No Connect" True)))
+   (pin 999 5
+    (property 
+     (pinname 5)
+     (pintype 4)
+     (Name 5)
+     (Number 5)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 4)
+     ("Is No Connect" True)))
+   (pin 999 6
+    (property 
+     (pinname 6)
+     (pintype 4)
+     (Name 6)
+     (Number 6)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 5)
+     ("Is No Connect" True)))
+   (pin 999 7
+    (property 
+     (pinname 7)
+     (pintype 4)
+     (Name 7)
+     (Number 7)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 6)
+     ("Is No Connect" True)))
+   (pin 999 8
+    (property 
+     (pinname 8)
+     (pintype 4)
+     (Name 8)
+     (Number 8)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 7)
+     ("Is No Connect" True)))))
+ (network
+  (net #AT_SYNCH_IN
+   (pins
+     J1-8 U2-10))
+  (net #AT_SYNCH_OUT
+   (pins
+     J3-14 U2-7))
+  (net #ENABLE_IN
+   (pins
+     J3-10 U2-5))
+  (net #ENABLE_OUT
+   (pins
+     J1-4 U2-12))
+  (net "GND_BMC-7"
+    (property 
+     (nettype S))
+   (pins
+     J1-2 J1-7 J4-2 C1-2 U1-9 U2-9 C5-1 C7-1))
+  (net GND_EARTH
+    (property 
+     (nettype S))
+   (pins
+     R1-1 R2-1 R3-1 R4-1))
+  (net GND_EMPPU
+    (property 
+     (nettype S))
+   (pins
+     J3-1 J3-3 J3-5 J3-7 J3-9 J3-11 J3-13 J3-15 R3-2
+     C3-2 U2-8 C6-1))
+  (net GND_MARCO
+    (property 
+     (nettype S))
+   (pins
+     J2-1 J2-2 J2-3 J2-4 J2-5 J2-6 J2-7 J2-8 J2-9
+     J2-10 J2-14 J2-15 R4-2 C2-2 U1-8 C4-1 C8-1))
+  (net LINE_1_IN
+   (pins
+     J3-8 U2-3))
+  (net LINE_1_OUT
+   (pins
+     J1-5 U2-14))
+  (net LINE_2_IN
+   (pins
+     J3-4 U2-4))
+  (net LINE_2_OUT
+   (pins
+     J1-6 U2-13))
+  (net MODE_IN
+   (pins
+     J3-2 U2-2))
+  (net MODE_OUT
+   (pins
+     J1-3 U2-15))
+  (net N01276
+   (pins
+     J2-SHELL1 J2-SHELL R1-2))
+  (net N03570
+   (pins
+     J3-SHELL1 J3-SHELL R2-2))
+  (net N08125
+   (pins
+     J2-13 U1-2 R5-1))
+  (net N08146
+   (pins
+     C8-2 R5-2))
+  (net N08912
+   (pins
+     U1-15 R6-1))
+  (net N08916
+   (pins
+     J1-1 R6-2))
+  (net "VCC_BMC-7"
+    (property 
+     (nettype S))
+   (pins
+     J4-1 C1-1 U1-16 U2-16 C5-2 C7-2))
+  (net VCC_EMPPU
+    (property 
+     (nettype S))
+   (pins
+     J3-6 J3-12 C3-1 U2-1 C6-2))
+  (net VCC_MARCO
+    (property 
+     (nettype S))
+   (pins
+     J2-11 J2-12 C2-1 U1-1 C4-2)))
+)
